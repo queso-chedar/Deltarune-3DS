@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 364498a3c59a0f545b49f26b4d22d091
+timeCreated: 1750885680
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: firstsheet256x256_0
+    21300002: firstsheet256x256_1
+    21300004: firstsheet256x256_2
+    21300006: firstsheet256x256_3
+    21300008: firstsheet256x256_4
+    21300010: firstsheet256x256_5
+    21300012: firstsheet256x256_6
+    21300014: firstsheet256x256_7
+    21300016: firstsheet256x256_8
+    21300018: firstsheet256x256_9
+    21300020: firstsheet256x256_10
+    21300022: firstsheet256x256_11
+    21300024: firstsheet256x256_12
+    21300026: firstsheet256x256_13
+    21300028: firstsheet256x256_14
+    21300030: firstsheet256x256_15
+    21300032: firstsheet256x256_16
+    21300034: firstsheet256x256_17
+    21300036: firstsheet256x256_18
+    21300038: firstsheet256x256_19
+    21300040: firstsheet256x256_20
+    21300042: firstsheet256x256_21
+    21300044: firstsheet256x256_22
+    21300046: firstsheet256x256_23
+    21300048: firstsheet256x256_24
+    21300050: firstsheet256x256_25
+    21300052: firstsheet256x256_26
+    21300054: firstsheet256x256_27
+    21300056: firstsheet256x256_28
+    21300058: firstsheet256x256_29
+    21300060: firstsheet256x256_30
+    21300062: firstsheet256x256_31
+    21300064: firstsheet256x256_32
+    21300066: firstsheet256x256_33
+    21300068: firstsheet256x256_34
+    21300070: firstsheet256x256_35
+    21300072: firstsheet256x256_36
+    21300074: firstsheet256x256_37
+    21300076: firstsheet256x256_38
+    21300078: firstsheet256x256_39
+    21300080: firstsheet256x256_40
+    21300082: firstsheet256x256_41
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 256
+    textureFormat: 61
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firstsheet256x256_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 60
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 224
+        width: 60
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 213
+        width: 58
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 212
+        width: 58
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 159
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 189
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 203
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 198
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 196
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 180
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 175
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 174
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 171
+        width: 14
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 171
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 150
+        width: 32
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 112
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 112
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 112
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 112
+        width: 29
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 112
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 112
+        width: 23
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 112
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 112
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 72
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 72
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 72
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 72
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_31
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 72
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 72
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 25
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 25
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 25
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_37
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 25
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 25
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_39
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 25
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: firstsheet256x256_41
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
