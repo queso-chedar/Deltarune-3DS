@@ -1,0 +1,2548 @@
+fileFormatVersion: 2
+guid: c02dd37fd6a31a44fba49eef739055da
+timeCreated: 1758527259
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bg_dw_cyber_tileset_0
+    21300002: bg_dw_cyber_tileset_1
+    21300004: bg_dw_cyber_tileset_2
+    21300006: bg_dw_cyber_tileset_3
+    21300008: bg_dw_cyber_tileset_4
+    21300010: bg_dw_cyber_tileset_5
+    21300012: bg_dw_cyber_tileset_6
+    21300014: bg_dw_cyber_tileset_7
+    21300016: bg_dw_cyber_tileset_8
+    21300018: bg_dw_cyber_tileset_9
+    21300020: bg_dw_cyber_tileset_10
+    21300022: bg_dw_cyber_tileset_11
+    21300024: bg_dw_cyber_tileset_12
+    21300026: bg_dw_cyber_tileset_13
+    21300028: bg_dw_cyber_tileset_14
+    21300030: bg_dw_cyber_tileset_15
+    21300032: bg_dw_cyber_tileset_16
+    21300034: bg_dw_cyber_tileset_17
+    21300036: bg_dw_cyber_tileset_18
+    21300038: bg_dw_cyber_tileset_19
+    21300040: bg_dw_cyber_tileset_20
+    21300042: bg_dw_cyber_tileset_21
+    21300044: bg_dw_cyber_tileset_22
+    21300046: bg_dw_cyber_tileset_23
+    21300048: bg_dw_cyber_tileset_24
+    21300050: bg_dw_cyber_tileset_25
+    21300052: bg_dw_cyber_tileset_26
+    21300054: bg_dw_cyber_tileset_27
+    21300056: bg_dw_cyber_tileset_28
+    21300058: bg_dw_cyber_tileset_29
+    21300060: bg_dw_cyber_tileset_30
+    21300062: bg_dw_cyber_tileset_31
+    21300064: bg_dw_cyber_tileset_32
+    21300066: bg_dw_cyber_tileset_33
+    21300068: bg_dw_cyber_tileset_34
+    21300070: bg_dw_cyber_tileset_35
+    21300072: bg_dw_cyber_tileset_36
+    21300074: bg_dw_cyber_tileset_37
+    21300076: bg_dw_cyber_tileset_38
+    21300078: bg_dw_cyber_tileset_39
+    21300080: bg_dw_cyber_tileset_40
+    21300082: bg_dw_cyber_tileset_41
+    21300084: bg_dw_cyber_tileset_42
+    21300086: bg_dw_cyber_tileset_43
+    21300088: bg_dw_cyber_tileset_44
+    21300090: bg_dw_cyber_tileset_45
+    21300092: bg_dw_cyber_tileset_46
+    21300094: bg_dw_cyber_tileset_47
+    21300096: bg_dw_cyber_tileset_48
+    21300098: bg_dw_cyber_tileset_49
+    21300100: bg_dw_cyber_tileset_50
+    21300102: bg_dw_cyber_tileset_51
+    21300104: bg_dw_cyber_tileset_52
+    21300106: bg_dw_cyber_tileset_53
+    21300108: bg_dw_cyber_tileset_54
+    21300110: bg_dw_cyber_tileset_55
+    21300112: bg_dw_cyber_tileset_56
+    21300114: bg_dw_cyber_tileset_57
+    21300116: bg_dw_cyber_tileset_58
+    21300118: bg_dw_cyber_tileset_59
+    21300120: bg_dw_cyber_tileset_60
+    21300122: bg_dw_cyber_tileset_61
+    21300124: bg_dw_cyber_tileset_62
+    21300126: bg_dw_cyber_tileset_63
+    21300128: bg_dw_cyber_tileset_64
+    21300130: bg_dw_cyber_tileset_65
+    21300132: bg_dw_cyber_tileset_66
+    21300134: bg_dw_cyber_tileset_67
+    21300136: bg_dw_cyber_tileset_68
+    21300138: bg_dw_cyber_tileset_69
+    21300140: bg_dw_cyber_tileset_70
+    21300142: bg_dw_cyber_tileset_71
+    21300144: bg_dw_cyber_tileset_72
+    21300146: bg_dw_cyber_tileset_73
+    21300148: bg_dw_cyber_tileset_74
+    21300150: bg_dw_cyber_tileset_75
+    21300152: bg_dw_cyber_tileset_76
+    21300154: bg_dw_cyber_tileset_77
+    21300156: bg_dw_cyber_tileset_78
+    21300158: bg_dw_cyber_tileset_79
+    21300160: bg_dw_cyber_tileset_80
+    21300162: bg_dw_cyber_tileset_81
+    21300164: bg_dw_cyber_tileset_82
+    21300166: bg_dw_cyber_tileset_83
+    21300168: bg_dw_cyber_tileset_84
+    21300170: bg_dw_cyber_tileset_85
+    21300172: bg_dw_cyber_tileset_86
+    21300174: bg_dw_cyber_tileset_87
+    21300176: bg_dw_cyber_tileset_88
+    21300178: bg_dw_cyber_tileset_89
+    21300180: bg_dw_cyber_tileset_90
+    21300182: bg_dw_cyber_tileset_91
+    21300184: bg_dw_cyber_tileset_92
+    21300186: bg_dw_cyber_tileset_93
+    21300188: bg_dw_cyber_tileset_94
+    21300190: bg_dw_cyber_tileset_95
+    21300192: bg_dw_cyber_tileset_96
+    21300194: bg_dw_cyber_tileset_97
+    21300196: bg_dw_cyber_tileset_98
+    21300198: bg_dw_cyber_tileset_99
+    21300200: bg_dw_cyber_tileset_100
+    21300202: bg_dw_cyber_tileset_101
+    21300204: bg_dw_cyber_tileset_102
+    21300206: bg_dw_cyber_tileset_103
+    21300208: bg_dw_cyber_tileset_104
+    21300210: bg_dw_cyber_tileset_105
+    21300212: bg_dw_cyber_tileset_106
+    21300214: bg_dw_cyber_tileset_107
+    21300216: bg_dw_cyber_tileset_108
+    21300218: bg_dw_cyber_tileset_109
+    21300220: bg_dw_cyber_tileset_110
+    21300222: bg_dw_cyber_tileset_111
+    21300224: bg_dw_cyber_tileset_112
+    21300226: bg_dw_cyber_tileset_113
+    21300228: bg_dw_cyber_tileset_114
+    21300230: bg_dw_cyber_tileset_115
+    21300232: bg_dw_cyber_tileset_116
+    21300234: bg_dw_cyber_tileset_117
+    21300236: bg_dw_cyber_tileset_118
+    21300238: bg_dw_cyber_tileset_119
+    21300240: bg_dw_cyber_tileset_120
+    21300242: bg_dw_cyber_tileset_121
+    21300244: bg_dw_cyber_tileset_122
+    21300246: bg_dw_cyber_tileset_123
+    21300248: bg_dw_cyber_tileset_124
+    21300250: bg_dw_cyber_tileset_125
+    21300252: bg_dw_cyber_tileset_126
+    21300254: bg_dw_cyber_tileset_127
+    21300256: bg_dw_cyber_tileset_128
+    21300258: bg_dw_cyber_tileset_129
+    21300260: bg_dw_cyber_tileset_130
+    21300262: bg_dw_cyber_tileset_131
+    21300264: bg_dw_cyber_tileset_132
+    21300266: bg_dw_cyber_tileset_133
+    21300268: bg_dw_cyber_tileset_134
+    21300270: bg_dw_cyber_tileset_135
+    21300272: bg_dw_cyber_tileset_136
+    21300274: bg_dw_cyber_tileset_137
+    21300276: bg_dw_cyber_tileset_138
+    21300278: bg_dw_cyber_tileset_139
+    21300280: bg_dw_cyber_tileset_140
+    21300282: bg_dw_cyber_tileset_141
+    21300284: bg_dw_cyber_tileset_142
+    21300286: bg_dw_cyber_tileset_143
+    21300288: bg_dw_cyber_tileset_144
+    21300290: bg_dw_cyber_tileset_145
+    21300292: bg_dw_cyber_tileset_146
+    21300294: bg_dw_cyber_tileset_147
+    21300296: bg_dw_cyber_tileset_148
+    21300298: bg_dw_cyber_tileset_149
+    21300300: bg_dw_cyber_tileset_150
+    21300302: bg_dw_cyber_tileset_151
+    21300304: bg_dw_cyber_tileset_152
+    21300306: bg_dw_cyber_tileset_153
+    21300308: bg_dw_cyber_tileset_154
+    21300310: bg_dw_cyber_tileset_155
+    21300312: bg_dw_cyber_tileset_156
+    21300314: bg_dw_cyber_tileset_157
+    21300316: bg_dw_cyber_tileset_158
+    21300318: bg_dw_cyber_tileset_159
+    21300320: bg_dw_cyber_tileset_160
+    21300322: bg_dw_cyber_tileset_161
+    21300324: bg_dw_cyber_tileset_162
+    21300326: bg_dw_cyber_tileset_163
+    21300328: bg_dw_cyber_tileset_164
+    21300330: bg_dw_cyber_tileset_165
+    21300332: bg_dw_cyber_tileset_166
+    21300334: bg_dw_cyber_tileset_167
+    21300336: bg_dw_cyber_tileset_168
+    21300338: bg_dw_cyber_tileset_169
+    21300340: bg_dw_cyber_tileset_170
+    21300342: bg_dw_cyber_tileset_171
+    21300344: bg_dw_cyber_tileset_172
+    21300346: bg_dw_cyber_tileset_173
+    21300348: bg_dw_cyber_tileset_174
+    21300350: bg_dw_cyber_tileset_175
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1280
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1280
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1280
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1280
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1280
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1240
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1200
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1080
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_58
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_60
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1040
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1000
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1000
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_64
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1000
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1000
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_67
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_68
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_69
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_75
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_77
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_79
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_83
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_85
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_87
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_89
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_90
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 920
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_91
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_92
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_93
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_95
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_96
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_97
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_98
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_100
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_101
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 880
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_103
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_105
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_108
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_109
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_111
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_112
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_113
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_114
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_115
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_117
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_118
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_119
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_120
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_121
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_123
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_124
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_125
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_126
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 800
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_127
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_129
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_132
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_133
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_134
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_135
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_136
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 760
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_137
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_138
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_139
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_141
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_142
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_143
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_144
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_145
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_146
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_147
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_149
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_151
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_152
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_153
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_154
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_155
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_156
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_157
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 680
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_158
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 640
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_159
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_160
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 640
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_161
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 640
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_162
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 640
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_163
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_164
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 600
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 600
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_166
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 600
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_167
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_168
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 600
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_169
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 600
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_170
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 560
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_171
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 560
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_172
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 560
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_173
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 560
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_174
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 560
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bg_dw_cyber_tileset_175
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 560
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
