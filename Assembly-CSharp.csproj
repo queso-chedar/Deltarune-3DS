@@ -108,7 +108,7 @@
      <Compile Include="Assets\Sounds\O\target.cs" />
      <Compile Include="Assets\Spanishorenglish.cs" />
      <Compile Include="Assets\UITextTrail.cs" />
-     <Compile Include="Assets\chapter select\chselect1.cs" />
+     <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
      <Compile Include="Assets\solid.cs" />
