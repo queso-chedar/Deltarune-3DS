@@ -12,6 +12,10 @@ public class hallway : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
 
+	void Start(){
+		GetComponent<SpriteRenderer>().enabled= false;
+	}
+
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -25,7 +29,7 @@ public class hallway : MonoBehaviour
 			SceneManager.LoadScene(room);
 		}
 	}
-	
+
     private void Update()
     {
 
