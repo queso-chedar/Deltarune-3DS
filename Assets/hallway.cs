@@ -25,9 +25,7 @@ public class hallway : MonoBehaviour
 			SceneManager.LoadScene(room);
 		}
 	}
-
-
-
+	
     private void Update()
     {
 
