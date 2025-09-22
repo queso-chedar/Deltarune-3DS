@@ -1,0 +1,1386 @@
+fileFormatVersion: 2
+guid: cc106373a95d6bf46a9969f1f400ec4e
+timeCreated: 1754863913
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ezgif-626f0fffd47351_0
+    21300002: ezgif-626f0fffd47351_1
+    21300004: ezgif-626f0fffd47351_2
+    21300006: ezgif-626f0fffd47351_3
+    21300008: ezgif-626f0fffd47351_4
+    21300010: ezgif-626f0fffd47351_5
+    21300012: ezgif-626f0fffd47351_6
+    21300014: ezgif-626f0fffd47351_7
+    21300016: ezgif-626f0fffd47351_8
+    21300018: ezgif-626f0fffd47351_9
+    21300020: ezgif-626f0fffd47351_10
+    21300022: ezgif-626f0fffd47351_11
+    21300024: ezgif-626f0fffd47351_12
+    21300026: ezgif-626f0fffd47351_13
+    21300028: ezgif-626f0fffd47351_14
+    21300030: ezgif-626f0fffd47351_15
+    21300032: ezgif-626f0fffd47351_16
+    21300034: ezgif-626f0fffd47351_17
+    21300036: ezgif-626f0fffd47351_18
+    21300038: ezgif-626f0fffd47351_19
+    21300040: ezgif-626f0fffd47351_20
+    21300042: ezgif-626f0fffd47351_21
+    21300044: ezgif-626f0fffd47351_22
+    21300046: ezgif-626f0fffd47351_23
+    21300048: ezgif-626f0fffd47351_24
+    21300050: ezgif-626f0fffd47351_25
+    21300052: ezgif-626f0fffd47351_26
+    21300054: ezgif-626f0fffd47351_27
+    21300056: ezgif-626f0fffd47351_28
+    21300058: ezgif-626f0fffd47351_29
+    21300060: ezgif-626f0fffd47351_30
+    21300062: ezgif-626f0fffd47351_31
+    21300064: ezgif-626f0fffd47351_32
+    21300066: ezgif-626f0fffd47351_33
+    21300068: ezgif-626f0fffd47351_34
+    21300070: ezgif-626f0fffd47351_35
+    21300072: ezgif-626f0fffd47351_36
+    21300074: ezgif-626f0fffd47351_37
+    21300076: ezgif-626f0fffd47351_38
+    21300078: ezgif-626f0fffd47351_39
+    21300080: ezgif-626f0fffd47351_40
+    21300082: ezgif-626f0fffd47351_41
+    21300084: ezgif-626f0fffd47351_42
+    21300086: ezgif-626f0fffd47351_43
+    21300088: ezgif-626f0fffd47351_44
+    21300090: ezgif-626f0fffd47351_45
+    21300092: ezgif-626f0fffd47351_46
+    21300094: ezgif-626f0fffd47351_47
+    21300096: ezgif-626f0fffd47351_48
+    21300098: ezgif-626f0fffd47351_49
+    21300100: ezgif-626f0fffd47351_50
+    21300102: ezgif-626f0fffd47351_51
+    21300104: ezgif-626f0fffd47351_52
+    21300106: ezgif-626f0fffd47351_53
+    21300108: ezgif-626f0fffd47351_54
+    21300110: ezgif-626f0fffd47351_55
+    21300112: ezgif-626f0fffd47351_56
+    21300114: ezgif-626f0fffd47351_57
+    21300116: ezgif-626f0fffd47351_58
+    21300118: ezgif-626f0fffd47351_59
+    21300120: ezgif-626f0fffd47351_60
+    21300122: ezgif-626f0fffd47351_61
+    21300124: ezgif-626f0fffd47351_62
+    21300126: ezgif-626f0fffd47351_63
+    21300128: ezgif-626f0fffd47351_64
+    21300130: ezgif-626f0fffd47351_65
+    21300132: ezgif-626f0fffd47351_66
+    21300134: ezgif-626f0fffd47351_67
+    21300136: ezgif-626f0fffd47351_68
+    21300138: ezgif-626f0fffd47351_69
+    21300140: ezgif-626f0fffd47351_70
+    21300142: ezgif-626f0fffd47351_71
+    21300144: ezgif-626f0fffd47351_72
+    21300146: ezgif-626f0fffd47351_73
+    21300148: ezgif-626f0fffd47351_74
+    21300150: ezgif-626f0fffd47351_75
+    21300152: ezgif-626f0fffd47351_76
+    21300154: ezgif-626f0fffd47351_77
+    21300156: ezgif-626f0fffd47351_78
+    21300158: ezgif-626f0fffd47351_79
+    21300160: ezgif-626f0fffd47351_80
+    21300162: ezgif-626f0fffd47351_81
+    21300164: ezgif-626f0fffd47351_82
+    21300166: ezgif-626f0fffd47351_83
+    21300168: ezgif-626f0fffd47351_84
+    21300170: ezgif-626f0fffd47351_85
+    21300172: ezgif-626f0fffd47351_86
+    21300174: ezgif-626f0fffd47351_87
+    21300176: ezgif-626f0fffd47351_88
+    21300178: ezgif-626f0fffd47351_89
+    21300180: ezgif-626f0fffd47351_90
+    21300182: ezgif-626f0fffd47351_91
+    21300184: ezgif-626f0fffd47351_92
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 1024
+    textureFormat: 13
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_7
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_9
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_10
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_11
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_12
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_13
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 750
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_22
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_24
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_25
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_27
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 625
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_31
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_32
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_33
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_34
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_35
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_36
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_37
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_38
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_39
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_40
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_41
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 500
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_43
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_46
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_47
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_48
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_49
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_50
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_51
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_52
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_53
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_54
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_55
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 375
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_57
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_58
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_59
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_60
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_61
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_62
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_64
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_65
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_66
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_67
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_68
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_69
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 250
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_71
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_73
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_74
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_75
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_76
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_77
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_78
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_79
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_80
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_81
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_82
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_83
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 125
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_85
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_86
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_87
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_88
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_89
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_90
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_91
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ezgif-626f0fffd47351_92
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

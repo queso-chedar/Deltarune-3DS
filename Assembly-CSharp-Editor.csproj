@@ -46,19 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\2DTilezoneFiles\Editor\NetworkScriptableTileLayerEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\ParallaxBackground2Editor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\ParallaxBackgroundEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\RandomDungeonEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\RandomPlatformerEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\ScriptableTileLayerEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\TileDataAssetEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\TileInfoEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\TilePrefabsEditor.cs" />
-     <Compile Include="Assets\2DTilezoneFiles\Editor\TilesetEditor.cs" />
-     <None Include="Assets\2DTilezoneFiles\CollisionData\roguelikeDungeon_collision_data.cd" />
-     <None Include="Assets\2DTilezoneFiles\CollisionData\dirt-tiles_collision_data.cd" />
-     <None Include="Assets\2DTilezoneFiles\Shaders\UnlitTileLayer.shader" />
+     <Compile Include="Assets\Editor\CiaForgeX\CiaForgeX.cs" />
+     <None Include="Assets\Misc\HOLYTITAN\READ ME.txt" />
+     <None Include="Assets\SHADERS\Simple Color.shader" />
+     <None Include="Assets\SHADERS\Simple Transparent Cutout.shader" />
+     <None Include="Assets\Editor\CiaForgeX\Tools\ignore_3dstool.txt" />
+     <None Include="Assets\SHADERS\Simple Emmisive.shader" />
+     <None Include="Assets\SHADERS\Simple Transparent.shader" />
+     <None Include="Assets\SHADERS\Simple Tinted.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

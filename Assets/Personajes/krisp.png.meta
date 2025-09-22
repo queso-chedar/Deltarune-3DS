@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 775618e866f33754ba8d4ebb2ee31d7d
+timeCreated: 1758260833
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: krisp_0
+    21300002: krisp_1
+    21300004: krisp_2
+    21300006: krisp_3
+    21300008: krisp_4
+    21300010: krisp_5
+    21300012: krisp_6
+    21300014: krisp_7
+    21300016: krisp_8
+    21300018: krisp_9
+    21300020: krisp_10
+    21300022: krisp_11
+    21300024: krisp_12
+    21300026: krisp_13
+    21300028: krisp_14
+    21300030: krisp_15
+    21300032: krisp_16
+    21300034: krisp_17
+    21300036: krisp_18
+    21300038: krisp_19
+    21300040: krisp_20
+    21300042: krisp_21
+    21300044: krisp_22
+    21300046: krisp_23
+    21300048: krisp_24
+    21300050: krisp_25
+    21300052: krisp_26
+    21300054: krisp_27
+    21300056: krisp_28
+    21300058: krisp_29
+    21300060: krisp_30
+    21300062: krisp_31
+    21300064: krisp_32
+    21300066: krisp_33
+    21300068: krisp_34
+    21300070: krisp_35
+    21300072: krisp_36
+    21300074: krisp_37
+    21300076: krisp_38
+    21300078: krisp_39
+    21300080: krisp_40
+    21300082: krisp_41
+    21300084: krisp_42
+    21300086: krisp_43
+    21300088: krisp_44
+    21300090: krisp_45
+    21300092: krisp_46
+    21300094: krisp_47
+    21300096: krisp_48
+    21300098: krisp_49
+    21300100: krisp_50
+    21300102: krisp_51
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 512
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: krisp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 36
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 474
+        width: 36
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 474
+        width: 36
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 474
+        width: 36
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 474
+        width: 36
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 474
+        width: 36
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 423
+        width: 63
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 63
+        height: 43
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 378
+        width: 63
+        height: 43
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 241
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 332
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 287
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287
+        width: 63
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 378
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_36
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 474
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_37
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 380
+        width: 35
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_38
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 380
+        width: 35
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_39
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 380
+        width: 35
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_40
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 380
+        width: 35
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_41
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 380
+        width: 35
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_42
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 380
+        width: 35
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_45
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_46
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_47
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_48
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_49
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_50
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: krisp_51
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 291
+        width: 34
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

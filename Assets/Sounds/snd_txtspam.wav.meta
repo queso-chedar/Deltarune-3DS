@@ -15,13 +15,13 @@ AudioImporter:
     23:
       loadType: 0
       sampleRateSetting: 2
-      sampleRateOverride: 48000
-      compressionFormat: 0
+      sampleRateOverride: 44100
+      compressionFormat: 2
       quality: 1
       conversionMode: 0
   forceToMono: 0
   normalize: 0
-  preloadAudioData: 0
+  preloadAudioData: 1
   loadInBackground: 0
   3D: 1
   userData: 

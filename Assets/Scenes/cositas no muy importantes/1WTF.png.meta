@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: efd6235ba28bb3e4b87ed79442113e13
+timeCreated: 1754437464
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 1WTF_0
+    21300002: 1WTF_1
+    21300004: 1WTF_2
+    21300006: 1WTF_3
+    21300008: 1WTF_4
+    21300010: 1WTF_5
+    21300012: 1WTF_6
+    21300014: 1WTF_7
+    21300016: 1WTF_8
+    21300018: 1WTF_9
+    21300020: 1WTF_10
+    21300022: 1WTF_11
+    21300024: 1WTF_12
+    21300026: 1WTF_13
+    21300028: 1WTF_14
+    21300030: 1WTF_15
+    21300032: 1WTF_16
+    21300034: 1WTF_17
+    21300036: 1WTF_18
+    21300038: 1WTF_19
+    21300040: 1WTF_20
+    21300042: 1WTF_21
+    21300044: 1WTF_22
+    21300046: 1WTF_23
+    21300048: 1WTF_24
+    21300050: 1WTF_25
+    21300052: 1WTF_26
+    21300054: 1WTF_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1WTF_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 262
+        width: 9
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 272
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 235
+        width: 36
+        height: 49
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 232
+        width: 36
+        height: 52
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 165
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 189
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 13
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 13
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 30
+        height: 7
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 29
+        height: 8
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 26
+        height: 10
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 31
+        height: 11
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1
+        width: 29
+        height: 10
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 61
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 94
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 121
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 133
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 109
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 72
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 72
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 60
+        width: 27
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 60
+        width: 26
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 1WTF_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 256
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

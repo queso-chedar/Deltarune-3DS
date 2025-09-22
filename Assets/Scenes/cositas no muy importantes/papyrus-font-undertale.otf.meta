@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7921f7731f51eef45a53650fbd075b59
+timeCreated: 1754099795
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Papyrus Font [UNDERTALE]
+  fontNames:
+  - Papyrus Font [UNDERTALE]
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

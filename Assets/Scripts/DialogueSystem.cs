@@ -1,897 +1,382 @@
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
 using System.Collections;
-using UnityEngine.UI;
+using System.Collections.Generic;
 using UnityEngine;
-using System;
-
-// Incluso yo Siento miedo genuino hacia este codigo. pofavor sigue con cuidado
-
-// Ah y suerte si logras entenderlo.
+using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
 {
-    [Header("Porfavor no toques esto no sirve de nada y rompe el codigo si lo haces")]
-    public float spaceWidth = 30f;
-    public Vector2 defaultImageOffset = new Vector2(0, 0);
+    [Header("Configuración básica")]
+    public GameObject dialogueBoxPrefab;
+    public Dialogue[] dialogues;
+
+    [System.Serializable]
+    public class DialogueEventConfig
+    {
+        public string eventTrigger;
+        [Tooltip("Activar evento al FINAL del diálogo")]
+        public bool triggerAtEnd;
+        [Tooltip("Retraso adicional para este evento")]
+        public float eventDelay;
+    }
 
     [System.Serializable]
     public class Dialogue
     {
-        [TextArea(1, 4)]
-        public string message;
+        [TextArea(1,4)] public string message;
         public Sprite headSprite;
         public bool skippable = true;
-        public string eventTrigger;
-        public Vector2 imageOffset = new Vector2(0, 0);  // Offset personalizado
-        public Sprite customImage;  // Imagen personalizada para este diálogo (opcional)
+        public float autoAdvanceDelay = 1f;
+        public float startDelay = 0f;
+        [Header("Eventos")]
+        public List<DialogueEventConfig> eventTriggers = new List<DialogueEventConfig>();
     }
 
-    [System.Serializable]
-    public class Choice
-    {
-        public string optionText;
-        public int nextDialogueIndex;
-    }
+    public delegate void DialogueEvent(string eventTrigger);
+    public event DialogueEvent OnEventTriggered;
 
-    [System.Serializable]
-    public class DialogueNode
-    {
-        public Dialogue[] dialogues;
-        public Choice[] choices;
-        public bool hasChoices;
-    }
-
-    [System.Serializable]
-    public class ColorTag
-    {
-        public string tag;
-        public Color color;
-    }
-
-    [System.Serializable]
-    public class EmbeddedImage
-    {
-        public string tag;
-        public Sprite image;
-    }
-
-    public DialogueNode[] dialogueNodes;
-    public GameObject dialogueBoxPrefab;
-    public GameObject choiceButtonPrefab;
-
-    [Header("Text Settings")]
+    [Header("Texto / Tipeo")]
     public float textSpeed = 0.05f;
     public float punctuationPause = 0.2f;
-    public float autoAdvanceDelay = 1.0f;
+    public int textUpdateBatchSize = 3;
+    public bool disableLayoutWhileTyping = true;
+    public bool lowPerfMode = false;
 
-    [Header("Sound Settings")]
+    [Header("Audio")]
     public AudioClip[] typeSounds;
-    public AudioClip choiceSound;
-    public AudioClip punctuationSound;
-    [Range(0.1f, 3.0f)] public float pitch = 1.0f;
-    [Range(0.1f, 3.0f)] public float punctuationPitch = 1.0f;
-
-    [Header("Performance Settings")]
     public int audioPoolSize = 5;
     public float letterSoundCooldown = 0.03f;
 
-    [Header("Text Formatting")]
-    public ColorTag[] colorTags;
-    public EmbeddedImage[] embeddedImages;
-    public GameObject imagePrefab;
-    public float imageScale = 1.0f;
+    GameObject cachedCanvasObj;
+    GameObject currentDialogueBox;
+    Text dialogueText;
+    Image headImage;
 
-    public event Action<string> OnEventTriggered;
+    int currentDialogueIndex = 0;
+    bool isTyping = false;
+    string currentFullText = "";
+    bool waitingForAutoAdvance = false;
 
-    private List<AudioSource> audioSourcePool = new List<AudioSource>();
-    private GameObject currentDialogueBox;
-    private Text dialogueText;
-    private Image headImage;
-    private int currentNodeIndex = 0;
-    private int currentDialogueIndex = 0;
-    private bool isTyping = false;
-    private bool inChoice = false;
-    private List<GameObject> choiceButtons = new List<GameObject>();
-    private string currentFullText = "";
-    private bool waitingForAutoAdvance = false;
-    private float lastSoundTime;
+    List<AudioSource> audioSourcePool = new List<AudioSource>();
+    Dictionary<float, WaitForSeconds> waitCache = new Dictionary<float, WaitForSeconds>();
+    Font cachedFont;
+    int cachedFontSize;
+    FontStyle cachedFontStyle;
+    Dictionary<char, float> charAdvanceCache = new Dictionary<char, float>();
 
-    private List<GameObject> activeImages = new List<GameObject>();
-    private List<GameObject> imagePool = new List<GameObject>();
+    List<ContentSizeFitter> cachedFitters;
+    List<HorizontalLayoutGroup> cachedHLayouts;
+    List<VerticalLayoutGroup> cachedVLayouts;
+    List<Outline> cachedOutlines;
+    GraphicRaycaster cachedRaycaster;
+
+    Coroutine typingCoroutine = null;
+    int lastTypeSoundIndex = -1;
+    float lastSoundTime = -10f;
 
     void Start()
     {
         InitializeAudioPool();
+        cachedCanvasObj = GameObject.Find("CanvasPrefab");
+        if (cachedCanvasObj == null) Debug.LogWarning("CanvasPrefab no encontrado.");
+        PreloadFontCharacters();
         ShowDialogue();
-        Canvas canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
-
-        if (canvas != null)
-        {
-            if (!canvas.pixelPerfect)
-            {
-                Debug.LogWarning("Se recomienda activar el Parametro 'Pixel Perfect' en el Inspector del Canvas para evitar problemas de suavizado.");
-            }
-        }
-    }
-    void InitializeAudioPool()
-    {
-        for (int i = 0; i < audioPoolSize; i++)
-        {
-            AudioSource source = gameObject.AddComponent<AudioSource>();
-            source.playOnAwake = false;
-            source.spatialBlend = 0;
-            source.bypassEffects = true;
-            source.bypassListenerEffects = true;
-            audioSourcePool.Add(source);
-        }
     }
 
-    void PlaySound(AudioClip clip, float soundPitch)
-    {
-        if (clip == null) return;
-
-        if (Time.time - lastSoundTime < letterSoundCooldown) return;
-
-        AudioSource availableSource = null;
-
-        foreach (AudioSource source in audioSourcePool)
-        {
-            if (!source.isPlaying)
-            {
-                availableSource = source;
-                break;
-            }
-        }
-
-        if (availableSource == null && audioSourcePool.Count > 0)
-        {
-            availableSource = audioSourcePool[0];
-        }
-
-        if (availableSource != null)
-        {
-            availableSource.clip = clip;
-            availableSource.pitch = soundPitch;
-            availableSource.Play();
-            lastSoundTime = Time.time;
-        }
-    }
-
+    // ---- NEW: input handling restored ----
     void Update()
     {
-        if (inChoice || currentDialogueBox == null) return;
-        if (inChoice) return;
+        if (currentDialogueBox == null) return;
 
-        if (isTyping && GetCurrentDialogue() != null && GetCurrentDialogue().skippable &&
-            (Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.Return)))
+        // If typing: allow skipping/complete with X, B, Return
+        if (isTyping)
         {
-            CompleteText();
-        }
-        else if (!isTyping && !waitingForAutoAdvance &&
-                (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Return)))
-        {
-            NextDialogue();
-        }
-            Dialogue currentDialogue = GetCurrentDialogue();
-        if (currentDialogue != null && !string.IsNullOrEmpty(currentDialogue.eventTrigger))
-        {
-            cebollaevento[] receptores = FindObjectsOfType<cebollaevento>();
-
-            foreach (var receptor in receptores)
+            if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.Return))
             {
-                receptor.TryActivate(currentDialogue.eventTrigger);
+                // Only allow skip if current dialogue is skippable
+                if (currentDialogueIndex < dialogues.Length && dialogues[currentDialogueIndex].skippable)
+                {
+                    CompleteText();
+                }
+                else
+                {
+                    CompleteText();
+                }
             }
+        }
+        else
+        {
+            // Not typing: advance with Z or Return or A
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.A))
+            {
+                NextDialogue();
+            }
+        }
+    }
+    // ---------------------------------------
 
-            // Limpia el trigger después de usarlo
-            currentDialogue.eventTrigger = "";
+    void InitializeAudioPool()
+    {
+        for (int i = 0; i < Mathf.Max(1, audioPoolSize); i++)
+        {
+            var s = gameObject.AddComponent<AudioSource>();
+            s.playOnAwake = false;
+            s.spatialBlend = 0;
+            s.bypassEffects = true;
+            audioSourcePool.Add(s);
         }
     }
 
-    Dialogue GetCurrentDialogue()
+    void PreloadFontCharacters()
     {
-        if (currentNodeIndex < dialogueNodes.Length &&
-            currentDialogueIndex < dialogueNodes[currentNodeIndex].dialogues.Length)
+        if (dialogueBoxPrefab == null) return;
+        var prefabText = dialogueBoxPrefab.GetComponentInChildren<Text>();
+        if (prefabText == null) return;
+        cachedFont = prefabText.font;
+        cachedFontSize = prefabText.fontSize;
+        cachedFontStyle = prefabText.fontStyle;
+
+        HashSet<char> chars = new HashSet<char>();
+        if (dialogues != null)
         {
-            return dialogueNodes[currentNodeIndex].dialogues[currentDialogueIndex];
+            foreach (var d in dialogues)
+                if (!string.IsNullOrEmpty(d.message))
+                    foreach (var c in d.message) chars.Add(c);
         }
-        return null;
+
+        string extras = "áéíóúÁÉÍÓÚñÑ.,!?;:()[]{}\"'ºª0123456789 ";
+        foreach (var c in extras) chars.Add(c);
+        for (int i = 32; i <= 126; i++) chars.Add((char)i);
+
+        if (cachedFont != null)
+        {
+            foreach (var c in chars)
+                cachedFont.RequestCharactersInTexture(c.ToString(), Mathf.Max(1, cachedFontSize), cachedFontStyle);
+            Canvas.ForceUpdateCanvases();
+        }
     }
 
     void ShowDialogue()
     {
+        StartCoroutine(ShowDialogueWithDelay());
+    }
+
+    IEnumerator ShowDialogueWithDelay()
+    {
+        int index = currentDialogueIndex;
+        if (dialogues == null || dialogues.Length == 0) yield break;
+        var d = dialogues[index];
+
+        if (d.startDelay > 0)
+        {
+            var w = GetWFS(d.startDelay);
+            if (w != null) yield return w; else yield return null;
+        }
+
+        if (currentDialogueIndex != index) yield break;
+
         if (currentDialogueBox == null)
         {
-            GameObject canvasObj = GameObject.Find("Canvas");
+            if (cachedCanvasObj == null) { Debug.LogError("No Canvas para instanciar diálogo."); yield break; }
+            currentDialogueBox = Instantiate(dialogueBoxPrefab, cachedCanvasObj.transform);
 
-            if (canvasObj != null)
+            dialogueText = currentDialogueBox.GetComponentInChildren<Text>();
+            if (dialogueText != null)
             {
-                currentDialogueBox = Instantiate(dialogueBoxPrefab, canvasObj.transform);
-
-                dialogueText = currentDialogueBox.GetComponentInChildren<Text>();
-                dialogueText.supportRichText = true; // Habilitar texto enriquecido
-
-                headImage = FindChildRecursive(currentDialogueBox.transform, "HeadImage").GetComponent<Image>();
+                dialogueText.supportRichText = true;
+                cachedFont = dialogueText.font;
+                cachedFontSize = dialogueText.fontSize;
+                cachedFontStyle = dialogueText.fontStyle;
+                charAdvanceCache.Clear();
             }
-            else
-            {
-                Debug.LogError("No se encontró el objeto Canvas. Asegúrate de que exista en la escena.");
-            }
-        }
-        Dialogue currentDialogue = GetCurrentDialogue();
-        if (currentDialogue == null)
-        {
-            CloseDialogue();
-            return;
+
+            var headT = currentDialogueBox.transform.Find("HeadImage");
+            if (headT != null) headImage = headT.GetComponent<Image>();
+
+            CacheLayoutComponents();
         }
 
-        currentFullText = currentDialogue.message; // Guardar el texto completo
+        currentFullText = d.message;
+        if (headImage != null) { headImage.sprite = d.headSprite; headImage.enabled = (d.headSprite != null); }
 
-        if (!string.IsNullOrEmpty(currentDialogue.eventTrigger))
+        foreach (var ev in d.eventTriggers)
         {
-            if (OnEventTriggered != null)
-                OnEventTriggered(currentDialogue.eventTrigger);
+            if (!ev.triggerAtEnd) StartCoroutine(TriggerEventWithDelay(ev));
         }
 
-        if (headImage != null && currentDialogue.headSprite != null)
-        {
-            headImage.sprite = currentDialogue.headSprite;
-            headImage.enabled = true;
-        }
-        else if (headImage != null)
-        {
-            headImage.enabled = false;
-        }
-
-        StartCoroutine(TypeText(currentFullText));
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        typingCoroutine = StartCoroutine(TypeText(currentFullText, index));
     }
 
-    Transform FindChildRecursive(Transform parent, string name)
+    IEnumerator TriggerEventWithDelay(DialogueEventConfig ev)
     {
-        foreach (Transform child in parent)
-        {
-            if (child.name == name)
-                return child;
-
-            Transform result = FindChildRecursive(child, name);
-            if (result != null)
-                return result;
-        }
-        return null;
+        if (ev == null) yield break;
+        if (ev.eventDelay > 0) { var w = GetWFS(ev.eventDelay); if (w != null) yield return w; else yield return null; }
+        if (OnEventTriggered != null) OnEventTriggered(ev.eventTrigger);
     }
-    private IEnumerator TypeText(string fullText)
+
+    IEnumerator TypeText(string fullText, int dialogueIndex)
     {
-        // ===== 1. DECLARACIONES INICIALES =====
-        Dialogue currentDialogue = GetCurrentDialogue();
-        Vector2 currentImageOffset = defaultImageOffset;
         List<object> tokens = new List<object>();
-        System.Text.StringBuilder displayText = new System.Text.StringBuilder();
-        int tokenIndex = 0;
-        float currentTextWidth = 0f;
+        if (!string.IsNullOrEmpty(fullText)) tokens.Add(fullText);
 
-        // ===== 2. INICIALIZACIÓN =====
+        var d = dialogues[dialogueIndex];
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
         isTyping = true;
         waitingForAutoAdvance = false;
-        if (dialogueText != null)
-        {
-            dialogueText.text = "";
-        }
-        else
-        {
-            Debug.LogError("No se ha encontrado Un DialogueText. Haz olvidado Crearselo a tu Panel? O Haz olvidado crear un canvas en primer lugar???");
-            yield break;
-        }
-        dialogueText.text = "";
-        ReturnAllImagesToPool();
-        activeImages.Clear();
+
+        if (dialogueText != null) dialogueText.text = "";
         currentFullText = fullText;
 
-        // ===== 3. CONFIGURACIÓN DE OFFSET =====
-        if (currentDialogue != null && currentDialogue.imageOffset != null)
+        if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(false);
+
+        foreach (object token in tokens)
         {
-            currentImageOffset = currentDialogue.imageOffset;
-        }
+            string textPart = token as string;
+            if (string.IsNullOrEmpty(textPart)) continue;
 
-        // ===== 4. PARSEO DE TEXTO =====
-        tokens = ParseFormattedText(fullText, currentDialogue);
-
-        // ===== 5. BUCLE PRINCIPAL =====
-        while (tokenIndex < tokens.Count)
-        {
-            object token = tokens[tokenIndex];
-
-            if (token is string)
+            int pending = 0;
+            for (int i = 0; i < textPart.Length; i++)
             {
-                string textPart = (string)token;
-                for (int i = 0; i < textPart.Length; i++)
+                char c = textPart[i];
+                sb.Append(c);
+                pending++;
+                float adv = GetCharAdvance(c);
+
+                if (!lowPerfMode && typeSounds != null && typeSounds.Length > 0 && (i % 2 == 0))
+                    PlayTypeSoundRoundRobin();
+
+                float waitTime = textSpeed;
+                if (IsPunctuation(c)) waitTime += punctuationPause;
+
+                if (pending >= Mathf.Max(1, textUpdateBatchSize) || IsPunctuation(c))
                 {
-                    char c = textPart[i];
-                    displayText.Append(c);
-                    dialogueText.text = displayText.ToString();
+                    if (dialogueText != null) dialogueText.text = sb.ToString();
+                    pending = 0;
+                }
 
-                    // Calcular ancho manualmente
-                    CharacterInfo charInfo;
-                    if (dialogueText.font.GetCharacterInfo(c, out charInfo, dialogueText.fontSize, dialogueText.fontStyle))
-                    {
-                        currentTextWidth += charInfo.advance;
-                    }
-                    else
-                    {
-                        currentTextWidth += dialogueText.fontSize * 0.5f;
-                    }
+                var wfs = GetWFS(waitTime);
+                if (wfs != null) yield return wfs; else yield return null;
 
-                    PlayTypeSound(c);
-
-                    float waitTime = textSpeed;
-                    if (IsPunctuation(c))
-                    {
-                        waitTime += punctuationPause;
-                        PlayPunctuationSound();
-                    }
-
-                    if (i < textPart.Length - 4)
-                    {
-                        yield return new WaitForSeconds(waitTime);
-                    }
-                    else
-                    {
-                        float accumulated = 0;
-                        while (accumulated < waitTime)
-                        {
-                            accumulated += Time.deltaTime;
-                            yield return null;
-                        }
-                    }
-
-                    if (!isTyping)
-                    {
-                        yield break;
-                    }
+                if (!isTyping)
+                {
+                    if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
+                    yield break;
                 }
             }
-            else if (token is EmbeddedImageData)
-            {
-                EmbeddedImageData imgData = (EmbeddedImageData)token;
-                GameObject imgObj = GetImageFromPool();
 
-                // Configurar imagen
-                imgObj.transform.SetParent(dialogueText.transform.parent);
-                imgObj.transform.localScale = Vector3.one * imageScale;
-                imgObj.GetComponent<Image>().sprite = imgData.sprite;
-                imgObj.GetComponent<RectTransform>().sizeDelta =
-                    new Vector2(imgData.width, imgData.height);
-
-                // Calcular posición MANUALMENTE
-                Vector3 imgPosition = dialogueText.rectTransform.position;
-                imgPosition.x += currentTextWidth + currentImageOffset.x;
-                imgPosition.y += currentImageOffset.y;
-                imgObj.transform.position = imgPosition;
-
-                imgObj.SetActive(true);
-                activeImages.Add(imgObj);
-
-                // Avanzar ancho y agregar espacio
-                currentTextWidth += imgData.width;
-                displayText.Append(" ");
-                dialogueText.text = displayText.ToString();
-
-                yield return new WaitForSeconds(textSpeed * 2);
-            }
-
-            tokenIndex++;
+            if (sb.Length > 0 && dialogueText != null) dialogueText.text = sb.ToString();
         }
 
-        // ===== 6. FINALIZACIÓN =====
         isTyping = false;
+        typingCoroutine = null;
 
-        if (currentDialogue == null)
-        {
-            CloseDialogue();
-            yield break;
-        }
+        if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
 
-        if (!currentDialogue.skippable)
+        if (!d.skippable)
         {
             waitingForAutoAdvance = true;
-            yield return new WaitForSeconds(autoAdvanceDelay);
+            var w = GetWFS(d.autoAdvanceDelay); if (w != null) yield return w; else yield return null;
             waitingForAutoAdvance = false;
             NextDialogue();
         }
-        else if (ShouldShowChoices())
-        {
-            yield return new WaitForSeconds(0.2f);
-            ShowChoices();
-        }
     }
 
-    private bool ShouldShowChoices()
+    float GetCharAdvance(char c)
     {
-        return currentDialogueIndex == dialogueNodes[currentNodeIndex].dialogues.Length - 1 &&
-               dialogueNodes[currentNodeIndex].hasChoices &&
-               dialogueNodes[currentNodeIndex].choices != null &&
-               dialogueNodes[currentNodeIndex].choices.Length > 0;
-    }
-    private class EmbeddedImageData
-    {
-        public Sprite sprite;
-        public float width;
-        public float height; // Nuevo campo
-    }
-    private List<object> ParseFormattedText(string text, Dialogue currentDialogue)
-    {
-        List<object> tokens = new List<object>();
-        int currentIndex = 0;
-
-        while (currentIndex < text.Length)
-        {
-            int tagStart = text.IndexOf('{', currentIndex);
-            if (tagStart == -1)
-            {
-                tokens.Add(text.Substring(currentIndex));
-                break;
-            }
-
-            if (tagStart > currentIndex)
-            {
-                tokens.Add(text.Substring(currentIndex, tagStart - currentIndex));
-            }
-
-            int tagEnd = text.IndexOf('}', tagStart);
-            if (tagEnd == -1)
-            {
-                tokens.Add(text.Substring(tagStart));
-                break;
-            }
-
-            string tagContent = text.Substring(tagStart + 1, tagEnd - tagStart - 1);
-
-            // Prioridad: Imagen personalizada del diálogo
-            if (currentDialogue != null && currentDialogue.customImage != null)
-            {
-                tokens.Add(new EmbeddedImageData
-                {
-                    sprite = currentDialogue.customImage,
-                    width = currentDialogue.customImage.rect.width * imageScale,
-                    height = currentDialogue.customImage.rect.height * imageScale
-                });
-            }
-            else
-            {
-                // Buscar en imágenes embebidas globales
-                foreach (EmbeddedImage embeddedImg in embeddedImages)
-                {
-                    if (tagContent == embeddedImg.tag)
-                    {
-                        tokens.Add(new EmbeddedImageData
-                        {
-                            sprite = embeddedImg.image,
-                            width = embeddedImg.image.rect.width * imageScale,
-                            height = embeddedImg.image.rect.height * imageScale
-                        });
-                        break;
-                    }
-                }
-            }
-
-            currentIndex = tagEnd + 1;
-        }
-
-        return tokens;
+        float adv;
+        if (charAdvanceCache.TryGetValue(c, out adv)) return adv;
+        CharacterInfo ci;
+        if (cachedFont != null && cachedFont.GetCharacterInfo(c, out ci, cachedFontSize, cachedFontStyle)) adv = ci.advance;
+        else adv = cachedFontSize > 0 ? cachedFontSize * 0.5f : 6f;
+        charAdvanceCache[c] = adv;
+        return adv;
     }
 
-    private void UpdateImagePositions(string text)
+    WaitForSeconds GetWFS(float t)
     {
-        Canvas.ForceUpdateCanvases();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(dialogueText.rectTransform);
-
-        // 1. Calcular posición base del texto
-        Vector3 textStartPos = dialogueText.rectTransform.position;
-        float baseY = textStartPos.y;
-
-        // 2. Calcular offset vertical basado en alineación
-        float yOffset = 0;
-        switch (dialogueText.alignment)
-        {
-            case TextAnchor.UpperLeft:
-            case TextAnchor.UpperCenter:
-            case TextAnchor.UpperRight:
-                yOffset = -dialogueText.preferredHeight * 0.5f;
-                break;
-            case TextAnchor.MiddleLeft:
-            case TextAnchor.MiddleCenter:
-            case TextAnchor.MiddleRight:
-                yOffset = 0;
-                break;
-            case TextAnchor.LowerLeft:
-            case TextAnchor.LowerCenter:
-            case TextAnchor.LowerRight:
-                yOffset = dialogueText.preferredHeight * 0.5f;
-                break;
-        }
-        yOffset += dialogueText.fontSize * 0.5f + 5f;
-
-        // 3. Procesar el texto para encontrar espacios de imágenes (sin TextGenerator)
-        int imageIndex = 0;
-        float currentWidth = 0;
-        int currentLine = 0;
-        float lineHeight = dialogueText.fontSize * dialogueText.lineSpacing;
-
-        for (int i = 0; i < text.Length; i++)
-        {
-            // Manejo de saltos de línea
-            if (text[i] == '\n')
-            {
-                currentWidth = 0;
-                currentLine++;
-                continue;
-            }
-
-            // Detectar inicio de tag <space>
-            if (i + 7 < text.Length && text.Substring(i, 7) == "<space=")
-            {
-                // Extraer valor del espacio
-                int endIndex = text.IndexOf('>', i);
-                if (endIndex > i)
-                {
-                    string spaceValue = text.Substring(i + 7, endIndex - i - 7);
-                    float spaceWidth;
-                    if (float.TryParse(spaceValue, out spaceWidth))
-                    {
-                        // Posicionar imagen si existe
-                        if (imageIndex < activeImages.Count)
-                        {
-                            // Calcular posición
-                            Vector2 imgPos = new Vector2(
-                                textStartPos.x + currentWidth + spaceWidth / 2,
-                                baseY + yOffset - (currentLine * lineHeight)
-                            );
-
-                            // Aplicar posición
-                            activeImages[imageIndex].transform.position = imgPos;
-
-                            imageIndex++;
-                        }
-
-                        // Avanzar el ancho actual
-                        currentWidth += spaceWidth;
-                    }
-
-                    // Saltar al final del tag
-                    i = endIndex;
-                    continue;
-                }
-            }
-
-            // Procesar caracter normal
-            CharacterInfo charInfo;
-            if (dialogueText.font.GetCharacterInfo(text[i], out charInfo, dialogueText.fontSize, dialogueText.fontStyle))
-            {
-                currentWidth += charInfo.advance;
-            }
-            else
-            {
-                currentWidth += dialogueText.fontSize * 0.5f;
-            }
-        }
-
-        // Posicionar imágenes restantes al final
-        while (imageIndex < activeImages.Count)
-        {
-            activeImages[imageIndex].transform.position = new Vector3(
-                textStartPos.x + currentWidth,
-                baseY + yOffset - (currentLine * lineHeight),
-                0
-            );
-            imageIndex++;
-        }
+        if (t <= 0f) return null;
+        WaitForSeconds w;
+        if (!waitCache.TryGetValue(t, out w)) { w = new WaitForSeconds(t); waitCache[t] = w; }
+        return w;
     }
 
-    void PlayTypeSound(char c)
+    void PlayTypeSoundRoundRobin()
     {
-        if (IsAlphabetic(c) && typeSounds != null && typeSounds.Length > 0)
-        {
-            int randomIndex = UnityEngine.Random.Range(0, typeSounds.Length);
-            PlaySound(typeSounds[randomIndex], pitch);
-        }
+        if (typeSounds == null || typeSounds.Length == 0) return;
+        if (Time.time - lastSoundTime < letterSoundCooldown) return;
+        lastTypeSoundIndex = (lastTypeSoundIndex + 1) % typeSounds.Length;
+        PlaySound(typeSounds[lastTypeSoundIndex]);
+        lastSoundTime = Time.time;
     }
-    void CompleteText()
+
+    void PlaySound(AudioClip clip)
     {
-        // ===== 1. DETENER CORRUTINA =====
-        StopAllCoroutines();
+        if (clip == null) return;
+        foreach (var s in audioSourcePool)
+            if (!s.isPlaying) { s.clip = clip; s.Play(); return; }
+    }
 
-        // ===== 2. MOSTRAR TEXTO COMPLETO =====
-        dialogueText.text = currentFullText;
-        Canvas.ForceUpdateCanvases();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(dialogueText.rectTransform);
+    bool IsPunctuation(char c) { return c == ',' || c == '.' || c == '?' || c == '!' || c == ';' || c == ':'; }
 
-        // ===== 3. CONFIGURACIÓN =====
-        Dialogue currentDialogue = GetCurrentDialogue();
-        Vector2 currentImageOffset = defaultImageOffset;
-        if (currentDialogue != null && currentDialogue.imageOffset != null)
-        {
-            currentImageOffset = currentDialogue.imageOffset;
-        }
-
-        // ===== 4. PROCESAR TOKENS =====
-        List<object> tokens = ParseFormattedText(currentFullText, currentDialogue);
-        System.Text.StringBuilder displayText = new System.Text.StringBuilder();
-        float currentWidth = 0f;
-
-        for (int i = 0; i < tokens.Count; i++)
-        {
-            object token = tokens[i];
-
-            if (token is string)
-            {
-                string textPart = (string)token;
-                displayText.Append(textPart);
-                currentWidth = CalculateTextWidth(textPart);
-            }
-            else if (token is EmbeddedImageData)
-            {
-                // SOLUCIÓN: Declaraciones únicas sin conflicto de ámbito
-                var imgData = (EmbeddedImageData)token;
-                var imgObj = GetImageFromPool();
-
-                if (imgObj != null)
-                {
-                    // Configurar imagen
-                    imgObj.transform.SetParent(dialogueText.transform.parent);
-                    imgObj.transform.localScale = Vector3.one * imageScale;
-                    imgObj.GetComponent<Image>().sprite = imgData.sprite;
-                    imgObj.GetComponent<RectTransform>().sizeDelta =
-                        new Vector2(imgData.width, imgData.height);
-
-                    // Posicionamiento preciso
-                    Vector3 imgPosition = dialogueText.rectTransform.position;
-                    imgPosition.x += currentWidth + currentImageOffset.x;
-                    imgPosition.y += currentImageOffset.y;
-                    imgObj.transform.position = imgPosition;
-
-                    imgObj.SetActive(true);
-                    activeImages.Add(imgObj);
-
-                    // Espacio y ancho
-                    displayText.Append(" ");
-                    currentWidth += imgData.width;
-                }
-            }
-        }
-
-        // ===== 5. ACTUALIZAR TEXTO FINAL =====
-        dialogueText.text = displayText.ToString();
-
-        // ===== 6. FINALIZAR ESTADO =====
+    public void CompleteText()
+    {
+        if (typingCoroutine != null) { StopCoroutine(typingCoroutine); typingCoroutine = null; }
+        if (dialogueText != null) dialogueText.text = currentFullText;
         isTyping = false;
         waitingForAutoAdvance = false;
-
-        // ===== 7. MANEJAR OPCIONES =====
-        if (ShouldShowChoices())
-        {
-            ShowChoices();
-        }
-    }
-    private float CalculateTextWidth(string text)
-    {
-        float width = 0f;
-        foreach (char c in text)
-        {
-            CharacterInfo charInfo;
-            if (dialogueText.font.GetCharacterInfo(c, out charInfo, dialogueText.fontSize, dialogueText.fontStyle))
-            {
-                width += charInfo.advance;
-            }
-            else
-            {
-                width += dialogueText.fontSize * 0.5f;
-            }
-        }
-        return width;
-    }
-    bool IsAlphabetic(char c)
-    {
-        return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') ||
-               c == 'á' || c == 'é' || c == 'í' || c == 'ó' || c == 'ú' ||
-               c == 'Á' || c == 'É' || c == 'Í' || c == 'Ó' || c == 'Ú' ||
-               c == 'ñ' || c == 'Ñ' || c == '1' || c == '2' || c == '3' ||
-               c == '4' || c == '5' || c == '6' || c == '7' || c == '8' ||
-               c == '9' || c == '0' || c == '[' || c == ']';
-               // estas maracuyadas son los signos o letras que no sonaran
+        if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
     }
 
-    void PlayPunctuationSound()
+    public void NextDialogue()
     {
-        PlaySound(punctuationSound, punctuationPitch);
-    }
-
-    void PlayChoiceSound()
-    {
-        PlaySound(choiceSound, pitch);
-    }
-
-    bool IsPunctuation(char c)
-    {
-        return c == ',' || c == '.' || c == '?' || c == '!' || c == ';' || c == ':';
-    }
-
-    void NextDialogue()
-    {
-        currentDialogueIndex++;
-
-        if (currentNodeIndex >= dialogueNodes.Length)
+        int idx = currentDialogueIndex;
+        if (idx < dialogues.Length)
         {
-            CloseDialogue();
-            return;
-        }
-
-        if (currentDialogueIndex < dialogueNodes[currentNodeIndex].dialogues.Length)
-        {
-            ShowDialogue();
-        }
-        else
-        {
-            if (!dialogueNodes[currentNodeIndex].hasChoices)
-            {
-                currentNodeIndex++;
-                currentDialogueIndex = 0;
-
-                if (currentNodeIndex < dialogueNodes.Length)
-                {
-                    ShowDialogue();
-                }
-                else
-                {
-                    CloseDialogue();
-                }
-            }
-            else
-            {
-                if (dialogueNodes[currentNodeIndex].choices != null &&
-                    dialogueNodes[currentNodeIndex].choices.Length > 0)
-                {
-                    ShowChoices();
-                }
-                else
-                {
-                    CloseDialogue();
-                }
-            }
-        }
-    }
-
-    void ShowChoices()
-    {
-        if (dialogueNodes[currentNodeIndex].choices == null ||
-            dialogueNodes[currentNodeIndex].choices.Length == 0)
-        {
-            CloseDialogue();
-            return;
-        }
-
-        inChoice = true;
-
-        GameObject choicesPanel = new GameObject("ChoicesPanel");
-        choicesPanel.transform.SetParent(currentDialogueBox.transform);
-        RectTransform rt = choicesPanel.AddComponent<RectTransform>();
-        VerticalLayoutGroup layout = choicesPanel.AddComponent<VerticalLayoutGroup>();
-
-        layout.childAlignment = TextAnchor.MiddleCenter;
-        layout.spacing = 10;
-        layout.padding = new RectOffset(10, 10, 10, 10);
-
-        rt.anchorMin = new Vector2(0.5f, 0);
-        rt.anchorMax = new Vector2(0.5f, 0);
-        rt.pivot = new Vector2(0.5f, 0);
-        rt.anchoredPosition = new Vector2(0, 20);
-        rt.sizeDelta = new Vector2(300, 100);
-
-        ContentSizeFitter sizeFitter = choicesPanel.AddComponent<ContentSizeFitter>();
-        sizeFitter.horizontalFit = ContentSizeFitter.FitMode.PreferredSize;
-        sizeFitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
-
-        for (int i = 0; i < dialogueNodes[currentNodeIndex].choices.Length; i++)
-        {
-            GameObject button = Instantiate(choiceButtonPrefab, choicesPanel.transform);
-            choiceButtons.Add(button);
-
-            Text buttonText = button.GetComponentInChildren<Text>();
-            buttonText.text = dialogueNodes[currentNodeIndex].choices[i].optionText;
-
-            ContentSizeFitter buttonFitter = button.AddComponent<ContentSizeFitter>();
-            buttonFitter.horizontalFit = ContentSizeFitter.FitMode.PreferredSize;
-            buttonFitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
-
-            int choiceIndex = i;
-            button.GetComponent<Button>().onClick.AddListener(() => SelectChoice(choiceIndex));
-        }
-    }
-
-    void SelectChoice(int choiceIndex)
-    {
-        PlayChoiceSound();
-
-        foreach (GameObject button in choiceButtons)
-        {
-            Destroy(button);
-        }
-        choiceButtons.Clear();
-
-        inChoice = false;
-
-        int nextNode = dialogueNodes[currentNodeIndex].choices[choiceIndex].nextDialogueIndex;
-
-        if (nextNode >= 0 && nextNode < dialogueNodes.Length)
-        {
-            currentNodeIndex = nextNode;
-            currentDialogueIndex = 0;
-            ShowDialogue();
-        }
-        else
-        {
-            CloseDialogue();
+            var curr = dialogues[idx];
+            foreach (var ev in curr.eventTriggers)
+                if (ev.triggerAtEnd) StartCoroutine(TriggerEventWithDelay(ev));
+            currentDialogueIndex++;
+            if (currentDialogueIndex < dialogues.Length) ShowDialogue();
+            else CloseDialogue();
         }
     }
 
     void CloseDialogue()
     {
-        // 1. Detener todas las corrutinas primero
-        StopAllCoroutines();
-
-        // 2. Limpiar diálogo principal
-        if (currentDialogueBox != null)
-        {
-            Destroy(currentDialogueBox);
-            currentDialogueBox = null;
-        }
-
-        // 3. Limpiar botones de elección
-        foreach (GameObject button in choiceButtons)
-        {
-            if (button != null) Destroy(button);
-        }
-        choiceButtons.Clear();
-
-        // 4. Limpiar imágenes de manera segura
-        ReturnAllImagesToPool();
-
-        // 5. Resetear variables de estado
-        isTyping = false;
-        inChoice = false;
-        waitingForAutoAdvance = false;
+        if (typingCoroutine != null) { StopCoroutine(typingCoroutine); typingCoroutine = null; }
+        if (currentDialogueBox != null) { Destroy(currentDialogueBox); currentDialogueBox = null; }
+        isTyping = false; waitingForAutoAdvance = false;
     }
 
-    GameObject GetImageFromPool()
+    void CacheLayoutComponents()
     {
-        // Primero limpiar el pool de objetos destruidos
-        imagePool.RemoveAll(item => item == null);
+        cachedFitters = new List<ContentSizeFitter>();
+        cachedHLayouts = new List<HorizontalLayoutGroup>();
+        cachedVLayouts = new List<VerticalLayoutGroup>();
+        cachedOutlines = new List<Outline>();
+        cachedRaycaster = null;
+        if (currentDialogueBox == null) return;
 
-        foreach (GameObject img in imagePool)
-        {
-            if (img != null && !img.activeInHierarchy)
-            {
-                img.SetActive(true);
-                return img;
-            }
-        }
+        var fitters = currentDialogueBox.GetComponentsInChildren<ContentSizeFitter>(true);
+        cachedFitters.AddRange(fitters);
+        var hgs = currentDialogueBox.GetComponentsInChildren<HorizontalLayoutGroup>(true);
+        cachedHLayouts.AddRange(hgs);
+        var vgs = currentDialogueBox.GetComponentsInChildren<VerticalLayoutGroup>(true);
+        cachedVLayouts.AddRange(vgs);
+        var outs = currentDialogueBox.GetComponentsInChildren<Outline>(true);
+        cachedOutlines.AddRange(outs);
 
-        // Crear nueva imagen si no hay disponibles
-        GameObject newImg = Instantiate(imagePrefab);
-        newImg.SetActive(false);
-        imagePool.Add(newImg);
-        return newImg;
+        Canvas parentCanvas = currentDialogueBox.GetComponentInParent<Canvas>();
+        if (parentCanvas != null) cachedRaycaster = parentCanvas.GetComponent<GraphicRaycaster>();
     }
 
-    void ReturnAllImagesToPool()
+    void ToggleLayoutAndRaycaster(bool enable)
     {
-        // Recorrer en reversa para evitar problemas de índice
-        for (int i = activeImages.Count - 1; i >= 0; i--)
-        {
-            if (activeImages[i] != null) // Verificar que el objeto existe
-            {
-                activeImages[i].SetActive(false);
-                activeImages[i].transform.SetParent(null); // Desvincular de cualquier padre
-            }
-            activeImages.RemoveAt(i); // Remover de la lista siempre
-        }
+        if (currentDialogueBox == null) return;
+        if (cachedFitters != null) foreach (var f in cachedFitters) if (f != null) f.enabled = enable;
+        if (cachedHLayouts != null) foreach (var g in cachedHLayouts) if (g != null) g.enabled = enable;
+        if (cachedVLayouts != null) foreach (var g in cachedVLayouts) if (g != null) g.enabled = enable;
+        if (cachedOutlines != null) foreach (var o in cachedOutlines) if (o != null) o.enabled = enable;
+        if (cachedRaycaster != null) cachedRaycaster.enabled = enable;
     }
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9095508f54adcad45abc445818fb9132
-timeCreated: 1749619156
+timeCreated: 1753477745
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,7 @@ TextureImporter:
     21300016: 113031_8
     21300018: 113031_9
     21300020: 113031_10
+    21300022: 113031_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -47,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -79,12 +80,12 @@ TextureImporter:
     overridden: 0
   - buildTarget: Nintendo 3DS
     maxTextureSize: 2048
-    textureFormat: -1
+    textureFormat: 13
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -226,6 +227,19 @@ TextureImporter:
         y: 58
         width: 42
         height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 113031_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 69
+        width: 37
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: be2a0e07a7ec6044a85a1625a62a913f
+timeCreated: 1757722956
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HUD_0
+    21300002: HUD_1
+    21300004: HUD_2
+    21300006: HUD_3
+    21300008: HUD_4
+    21300010: HUD_5
+    21300012: HUD_6
+    21300014: HUD_7
+    21300016: HUD_8
+    21300018: HUD_9
+    21300020: HUD_10
+    21300022: HUD_11
+    21300024: HUD_12
+    21300026: HUD_13
+    21300028: HUD_1_0
+    21300030: HUD_1_1
+    21300032: HUD_1_2
+    21300034: HUD_1_3
+    21300036: HUD_1_4
+    21300038: HUD_1_5
+    21300040: HUD_1_6
+    21300042: HUD_1_7
+    21300044: HUD_1_8
+    21300046: HUD_1_9
+    21300048: HUD_1_10
+    21300050: HUD_1_11
+    21300052: HUD_1_12
+    21300054: HUD_1_13
+    21300056: HUD_1_14
+    21300058: HUD_1_15
+    21300060: HUD_1_16
+    21300062: HUD_1_17
+    21300064: HUD_1_18
+    21300066: HUD_1_19
+    21300068: HUD_1_20
+    21300070: HUD_1_21
+    21300072: HUD_1_22
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HUD_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 217
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 217
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 191
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 230
+        width: 76
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 217
+        width: 76
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 204
+        width: 76
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 191
+        width: 76
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 241
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 193
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 206
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 219
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 232
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 17
+        width: 43
+        height: 15
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 17
+        width: 61
+        height: 15
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 48
+        height: 15
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 48
+        height: 15
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 31
+        height: 26
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 98
+        width: 31
+        height: 26
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 98
+        width: 31
+        height: 26
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 31
+        height: 26
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5
+        width: 31
+        height: 26
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 5
+        width: 31
+        height: 26
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 31
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 158
+        width: 31
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 158
+        width: 31
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 31
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 31
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 31
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 33
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 33
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 33
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 32
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 33
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HUD_1_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 33
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

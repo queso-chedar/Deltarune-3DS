@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a71f73c9c96397d49adf4b92bd02289e
-timeCreated: 1750888583
+timeCreated: 1758261320
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,67 @@ TextureImporter:
     21300026: KRIS_13
     21300028: KRIS_14
     21300030: KRIS_15
+    21300032: KRIS_16
+    21300034: KRIS_17
+    21300036: KRIS_18
+    21300038: KRIS_19
+    21300040: KRIS_20
+    21300042: KRIS_21
+    21300044: KRIS_22
+    21300046: KRIS_23
+    21300048: KRIS_24
+    21300050: KRIS_25
+    21300052: KRIS_26
+    21300054: KRIS_27
+    21300056: KRIS_28
+    21300058: KRIS_29
+    21300060: KRIS_30
+    21300062: KRIS_31
+    21300064: KRIS_32
+    21300066: KRIS_33
+    21300068: KRIS_34
+    21300070: KRIS_35
+    21300072: KRIS_36
+    21300074: KRIS_37
+    21300076: KRIS_38
+    21300078: KRIS_39
+    21300080: KRIS_40
+    21300082: KRIS_41
+    21300084: KRIS_42
+    21300086: KRIS_43
+    21300088: KRIS_44
+    21300090: KRIS_45
+    21300092: KRIS_46
+    21300094: KRIS_47
+    21300096: KRIS_48
+    21300098: KRIS_49
+    21300100: KRIS_50
+    21300102: KRIS_51
+    21300104: KRIS_52
+    21300106: KRIS_53
+    21300108: KRIS_54
+    21300110: KRIS_55
+    21300112: KRIS_56
+    21300114: KRIS_57
+    21300116: KRIS_58
+    21300118: KRIS_59
+    21300120: KRIS_60
+    21300122: KRIS_61
+    21300124: KRIS_62
+    21300126: KRIS_63
+    21300128: KRIS_64
+    21300130: KRIS_65
+    21300132: KRIS_66
+    21300134: KRIS_67
+    21300136: KRIS_68
+    21300138: KRIS_69
+    21300140: KRIS_70
+    21300142: KRIS_71
+    21300144: KRIS_72
+    21300146: KRIS_73
+    21300148: KRIS_74
+    21300150: KRIS_75
+    21300152: KRIS_76
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -52,7 +113,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -84,12 +145,12 @@ TextureImporter:
     overridden: 0
   - buildTarget: Nintendo 3DS
     maxTextureSize: 256
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -98,7 +159,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 132
+        y: 218
         width: 19
         height: 38
       alignment: 6
@@ -110,8 +171,8 @@ TextureImporter:
       name: KRIS_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 132
+        x: 20
+        y: 218
         width: 19
         height: 38
       alignment: 6
@@ -123,8 +184,8 @@ TextureImporter:
       name: KRIS_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 132
+        x: 40
+        y: 218
         width: 19
         height: 38
       alignment: 6
@@ -136,8 +197,8 @@ TextureImporter:
       name: KRIS_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 132
+        x: 60
+        y: 218
         width: 19
         height: 38
       alignment: 6
@@ -150,9 +211,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
+        y: 181
         width: 19
-        height: 38
+        height: 36
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +223,10 @@ TextureImporter:
       name: KRIS_5
       rect:
         serializedVersion: 2
-        x: 24
-        y: 88
+        x: 20
+        y: 181
         width: 19
-        height: 38
+        height: 36
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +236,10 @@ TextureImporter:
       name: KRIS_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 88
+        x: 40
+        y: 181
         width: 19
-        height: 38
+        height: 36
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +249,10 @@ TextureImporter:
       name: KRIS_7
       rect:
         serializedVersion: 2
-        x: 72
-        y: 88
+        x: 60
+        y: 181
         width: 19
-        height: 38
+        height: 36
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +262,10 @@ TextureImporter:
       name: KRIS_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 44
+        x: 80
+        y: 219
         width: 19
-        height: 38
+        height: 37
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +275,10 @@ TextureImporter:
       name: KRIS_9
       rect:
         serializedVersion: 2
-        x: 24
-        y: 44
+        x: 100
+        y: 219
         width: 19
-        height: 38
+        height: 37
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +288,10 @@ TextureImporter:
       name: KRIS_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 44
+        x: 120
+        y: 219
         width: 19
-        height: 38
+        height: 37
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +301,10 @@ TextureImporter:
       name: KRIS_11
       rect:
         serializedVersion: 2
-        x: 72
-        y: 44
+        x: 140
+        y: 219
         width: 19
-        height: 38
+        height: 37
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +314,8 @@ TextureImporter:
       name: KRIS_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 80
+        y: 180
         width: 19
         height: 38
       alignment: 6
@@ -266,8 +327,8 @@ TextureImporter:
       name: KRIS_13
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
+        x: 100
+        y: 180
         width: 19
         height: 38
       alignment: 6
@@ -279,8 +340,8 @@ TextureImporter:
       name: KRIS_14
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
+        x: 120
+        y: 180
         width: 19
         height: 38
       alignment: 6
@@ -292,11 +353,804 @@ TextureImporter:
       name: KRIS_15
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
+        x: 140
+        y: 180
         width: 19
         height: 38
       alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 141
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 102
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 63
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_47
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 24
+        width: 19
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 124
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 124
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 124
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_51
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 124
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 83
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_53
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 83
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_54
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 83
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 83
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 42
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_57
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 42
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 42
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_59
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 42
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_61
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_63
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 21
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 218
+        width: 22
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 218
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_66
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 216
+        width: 24
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_67
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 216
+        width: 32
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 165
+        width: 25
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_69
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 165
+        width: 25
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_70
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 165
+        width: 25
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_71
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 51
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_73
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_74
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KRIS_76
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []

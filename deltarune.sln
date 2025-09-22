@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deltarune", "Assembly-CSharp.csproj", "{38A703DE-479C-A396-775F-35417FEC015C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deltarune", "Assembly-CSharp-Editor.csproj", "{5D9D94FE-6A68-709F-F955-72FA801EE49E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{38A703DE-479C-A396-775F-35417FEC015C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38A703DE-479C-A396-775F-35417FEC015C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38A703DE-479C-A396-775F-35417FEC015C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9D94FE-6A68-709F-F955-72FA801EE49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9D94FE-6A68-709F-F955-72FA801EE49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9D94FE-6A68-709F-F955-72FA801EE49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9D94FE-6A68-709F-F955-72FA801EE49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
