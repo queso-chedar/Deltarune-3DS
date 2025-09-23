@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class battleselect : MonoBehaviour
 {
@@ -13,6 +16,7 @@ public class battleselect : MonoBehaviour
     public GameObject speakertext;
     public GameObject speakericon;
     public GameObject SAPMSTONSHOOOOOT;
+    [SerializeField] private Button targetButton; // assign in Inspector
 
     public void ButtonPressed()
     {
@@ -25,5 +29,17 @@ public class battleselect : MonoBehaviour
         speakericon.SetActive(false);
         SAPMSTONSHOOOOOT.SetActive(true);
         //SceneManager.LoadScene(room);
+    }
+    void Update()
+    {
+        if (EventSystem.current.currentSelectedGameObject == targetButton.gameObject)
+        {
+            Debug.Log(targetButton.name + " is highlighted via navigation");
+            
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z))
+            {
+                ButtonPressed();
+            }
+        }
     }
 }

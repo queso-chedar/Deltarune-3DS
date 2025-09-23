@@ -50,7 +50,6 @@
      <None Include="Assets\Misc\HOLYTITAN\READ ME.txt" />
      <None Include="Assets\SHADERS\Simple Color.shader" />
      <None Include="Assets\SHADERS\Simple Transparent Cutout.shader" />
-     <None Include="Assets\Editor\CiaForgeX\Temp\log.txt" />
      <None Include="Assets\Editor\CiaForgeX\Tools\ignore_3dstool.txt" />
      <None Include="Assets\SHADERS\Simple Emmisive.shader" />
      <None Include="Assets\SHADERS\Simple Transparent.shader" />
