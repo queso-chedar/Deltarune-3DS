@@ -12,6 +12,7 @@ public class battleselect : MonoBehaviour
     public GameObject self;
     public GameObject speakertext;
     public GameObject speakericon;
+    public GameObject SAPMSTONSHOOOOOT;
 
     public void ButtonPressed()
     {
@@ -22,6 +23,7 @@ public class battleselect : MonoBehaviour
         self.SetActive(true);
         speakertext.SetActive(false);
         speakericon.SetActive(false);
+        SAPMSTONSHOOOOOT.SetActive(true);
         //SceneManager.LoadScene(room);
     }
 }
