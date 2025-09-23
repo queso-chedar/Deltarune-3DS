@@ -111,6 +111,7 @@
      <Compile Include="Assets\UITextTrail.cs" />
      <Compile Include="Assets\battle\Personajes\movepositionxseconds.cs" />
      <Compile Include="Assets\battle\battlebox.cs" />
+     <Compile Include="Assets\battleselect.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
