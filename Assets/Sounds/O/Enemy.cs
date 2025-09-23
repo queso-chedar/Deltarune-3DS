@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
 	public bool Asustado = false; // el enemigo huye del jugador si este se acerca xddd
 	[Header("Otros")]
 	public Animator animator;
-	public KrisController krisController;
+	public NewKrisController krisController;
 	public Animator KrisAnimator;
 	public Collider2D enemyCollider; // Uso eso en lugar de getcomponent porque es más eficiente
 
@@ -73,8 +73,6 @@ public class Enemy : MonoBehaviour
 				animator.Play("Ruddindamage");
 				speed = 0;
 				krisController.enabled = false;
-			string idleAnim = krisController.GetIdleAnimation();
-			KrisAnimator.Play(idleAnim);
 			}
 			else if (graahhhh)
 			{

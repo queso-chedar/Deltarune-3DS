@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c02dd37fd6a31a44fba49eef739055da
-timeCreated: 1758527259
+timeCreated: 1758584575
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -212,7 +212,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -258,9 +258,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1280
-        width: 40
-        height: 40
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1280
-        width: 40
-        height: 40
+        x: 20
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1280
-        width: 40
-        height: 40
+        x: 40
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1280
-        width: 40
-        height: 40
+        x: 60
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_4
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1280
-        width: 40
-        height: 40
+        x: 80
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +322,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1280
-        width: 40
-        height: 40
+        x: 100
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +335,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_6
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1240
-        width: 40
-        height: 40
+        x: 20
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_7
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1240
-        width: 40
-        height: 40
+        x: 40
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_8
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1240
-        width: 40
-        height: 40
+        x: 60
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +374,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1240
-        width: 40
-        height: 40
+        x: 80
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,10 +387,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_10
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1240
-        width: 40
-        height: 40
+        x: 100
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +400,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_11
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1240
-        width: 40
-        height: 40
+        x: 180
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_12
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1240
-        width: 40
-        height: 40
+        x: 200
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_13
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1240
-        width: 40
-        height: 40
+        x: 220
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_14
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1200
-        width: 40
-        height: 40
+        x: 20
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_15
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1200
-        width: 40
-        height: 40
+        x: 40
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_16
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1200
-        width: 40
-        height: 40
+        x: 60
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_17
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1200
-        width: 40
-        height: 40
+        x: 80
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_18
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1200
-        width: 40
-        height: 40
+        x: 100
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_19
       rect:
         serializedVersion: 2
-        x: 280
-        y: 1200
-        width: 40
-        height: 40
+        x: 140
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_20
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1200
-        width: 40
-        height: 40
+        x: 160
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +530,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_21
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1200
-        width: 40
-        height: 40
+        x: 180
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,10 +543,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_22
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1200
-        width: 40
-        height: 40
+        x: 200
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_23
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1200
-        width: 40
-        height: 40
+        x: 220
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_24
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1160
-        width: 40
-        height: 40
+        x: 20
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_25
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1160
-        width: 40
-        height: 40
+        x: 40
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_26
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1160
-        width: 40
-        height: 40
+        x: 60
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,10 +608,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_27
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1160
-        width: 40
-        height: 40
+        x: 80
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,10 +621,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_28
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1160
-        width: 40
-        height: 40
+        x: 100
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_29
       rect:
         serializedVersion: 2
-        x: 240
-        y: 1160
-        width: 40
-        height: 40
+        x: 120
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,10 +647,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_30
       rect:
         serializedVersion: 2
-        x: 280
-        y: 1160
-        width: 40
-        height: 40
+        x: 140
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -660,10 +660,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_31
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1160
-        width: 40
-        height: 40
+        x: 160
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,10 +673,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_32
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1160
-        width: 40
-        height: 40
+        x: 180
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,10 +686,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_33
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1160
-        width: 40
-        height: 40
+        x: 200
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,10 +699,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_34
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1160
-        width: 40
-        height: 40
+        x: 220
+        y: 300
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +712,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_35
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1120
-        width: 40
-        height: 40
+        x: 20
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,10 +725,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_36
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1120
-        width: 40
-        height: 40
+        x: 40
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +738,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_37
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1120
-        width: 40
-        height: 40
+        x: 60
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,10 +751,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_38
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1120
-        width: 40
-        height: 40
+        x: 80
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +764,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_39
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1120
-        width: 40
-        height: 40
+        x: 100
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +777,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_40
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1120
-        width: 40
-        height: 40
+        x: 180
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,10 +790,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_41
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1120
-        width: 40
-        height: 40
+        x: 200
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -803,10 +803,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_42
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1120
-        width: 40
-        height: 40
+        x: 220
+        y: 280
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,10 +816,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_43
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1080
-        width: 40
-        height: 40
+        x: 20
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,10 +829,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_44
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1080
-        width: 40
-        height: 40
+        x: 40
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_45
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1080
-        width: 40
-        height: 40
+        x: 60
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,10 +855,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_46
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1080
-        width: 40
-        height: 40
+        x: 80
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -868,10 +868,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_47
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1080
-        width: 40
-        height: 40
+        x: 100
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -881,10 +881,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_48
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1080
-        width: 40
-        height: 40
+        x: 180
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -894,10 +894,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_49
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1080
-        width: 40
-        height: 40
+        x: 200
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_50
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1080
-        width: 40
-        height: 40
+        x: 220
+        y: 260
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,10 +920,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_51
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1040
-        width: 40
-        height: 40
+        x: 20
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -933,10 +933,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_52
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1040
-        width: 40
-        height: 40
+        x: 40
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -946,10 +946,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_53
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1040
-        width: 40
-        height: 40
+        x: 60
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,10 +959,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_54
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1040
-        width: 40
-        height: 40
+        x: 80
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,10 +972,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_55
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1040
-        width: 40
-        height: 40
+        x: 100
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -985,10 +985,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_56
       rect:
         serializedVersion: 2
-        x: 280
-        y: 1040
-        width: 40
-        height: 40
+        x: 140
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -998,10 +998,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_57
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1040
-        width: 40
-        height: 40
+        x: 160
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1011,10 +1011,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_58
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1040
-        width: 40
-        height: 40
+        x: 180
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1024,10 +1024,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_59
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1040
-        width: 40
-        height: 40
+        x: 200
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,10 +1037,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_60
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1040
-        width: 40
-        height: 40
+        x: 220
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1050,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_61
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1040
-        width: 40
-        height: 40
+        x: 240
+        y: 240
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1063,10 +1063,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_62
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1000
-        width: 40
-        height: 40
+        x: 20
+        y: 220
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1076,10 +1076,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_63
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1000
-        width: 40
-        height: 40
+        x: 40
+        y: 220
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1089,10 +1089,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_64
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1000
-        width: 40
-        height: 40
+        x: 60
+        y: 220
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1102,10 +1102,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_65
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1000
-        width: 40
-        height: 40
+        x: 80
+        y: 220
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,10 +1115,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_66
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1000
-        width: 40
-        height: 40
+        x: 100
+        y: 220
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1128,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_67
       rect:
         serializedVersion: 2
-        x: 40
-        y: 960
-        width: 40
-        height: 40
+        x: 20
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,10 +1141,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_68
       rect:
         serializedVersion: 2
-        x: 80
-        y: 960
-        width: 40
-        height: 40
+        x: 40
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1154,10 +1154,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_69
       rect:
         serializedVersion: 2
-        x: 120
-        y: 960
-        width: 40
-        height: 40
+        x: 60
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1167,10 +1167,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_70
       rect:
         serializedVersion: 2
-        x: 160
-        y: 960
-        width: 40
-        height: 40
+        x: 80
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1180,10 +1180,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_71
       rect:
         serializedVersion: 2
-        x: 200
-        y: 960
-        width: 40
-        height: 40
+        x: 100
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,10 +1193,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_72
       rect:
         serializedVersion: 2
-        x: 240
-        y: 960
-        width: 40
-        height: 40
+        x: 120
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_73
       rect:
         serializedVersion: 2
-        x: 280
-        y: 960
-        width: 40
-        height: 40
+        x: 140
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1219,10 +1219,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_74
       rect:
         serializedVersion: 2
-        x: 320
-        y: 960
-        width: 40
-        height: 40
+        x: 160
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1232,10 +1232,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_75
       rect:
         serializedVersion: 2
-        x: 360
-        y: 960
-        width: 40
-        height: 40
+        x: 180
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_76
       rect:
         serializedVersion: 2
-        x: 400
-        y: 960
-        width: 40
-        height: 40
+        x: 200
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1258,10 +1258,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_77
       rect:
         serializedVersion: 2
-        x: 440
-        y: 960
-        width: 40
-        height: 40
+        x: 220
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1271,10 +1271,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_78
       rect:
         serializedVersion: 2
-        x: 480
-        y: 960
-        width: 40
-        height: 40
+        x: 240
+        y: 200
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,10 +1284,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_79
       rect:
         serializedVersion: 2
-        x: 40
-        y: 920
-        width: 40
-        height: 40
+        x: 20
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1297,10 +1297,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_80
       rect:
         serializedVersion: 2
-        x: 80
-        y: 920
-        width: 40
-        height: 40
+        x: 40
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1310,10 +1310,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_81
       rect:
         serializedVersion: 2
-        x: 120
-        y: 920
-        width: 40
-        height: 40
+        x: 60
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_82
       rect:
         serializedVersion: 2
-        x: 160
-        y: 920
-        width: 40
-        height: 40
+        x: 80
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1336,10 +1336,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_83
       rect:
         serializedVersion: 2
-        x: 200
-        y: 920
-        width: 40
-        height: 40
+        x: 100
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,10 +1349,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_84
       rect:
         serializedVersion: 2
-        x: 240
-        y: 920
-        width: 40
-        height: 40
+        x: 120
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1362,10 +1362,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_85
       rect:
         serializedVersion: 2
-        x: 280
-        y: 920
-        width: 40
-        height: 40
+        x: 140
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1375,10 +1375,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_86
       rect:
         serializedVersion: 2
-        x: 320
-        y: 920
-        width: 40
-        height: 40
+        x: 160
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1388,10 +1388,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_87
       rect:
         serializedVersion: 2
-        x: 360
-        y: 920
-        width: 40
-        height: 40
+        x: 180
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1401,10 +1401,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_88
       rect:
         serializedVersion: 2
-        x: 400
-        y: 920
-        width: 40
-        height: 40
+        x: 200
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1414,10 +1414,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_89
       rect:
         serializedVersion: 2
-        x: 440
-        y: 920
-        width: 40
-        height: 40
+        x: 220
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1427,10 +1427,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_90
       rect:
         serializedVersion: 2
-        x: 480
-        y: 920
-        width: 40
-        height: 40
+        x: 240
+        y: 180
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1440,10 +1440,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_91
       rect:
         serializedVersion: 2
-        x: 40
-        y: 880
-        width: 40
-        height: 40
+        x: 20
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,10 +1453,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_92
       rect:
         serializedVersion: 2
-        x: 80
-        y: 880
-        width: 40
-        height: 40
+        x: 40
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1466,10 +1466,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_93
       rect:
         serializedVersion: 2
-        x: 120
-        y: 880
-        width: 40
-        height: 40
+        x: 60
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1479,10 +1479,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_94
       rect:
         serializedVersion: 2
-        x: 160
-        y: 880
-        width: 40
-        height: 40
+        x: 80
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1492,10 +1492,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_95
       rect:
         serializedVersion: 2
-        x: 200
-        y: 880
-        width: 40
-        height: 40
+        x: 100
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1505,10 +1505,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_96
       rect:
         serializedVersion: 2
-        x: 240
-        y: 880
-        width: 40
-        height: 40
+        x: 120
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1518,10 +1518,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_97
       rect:
         serializedVersion: 2
-        x: 280
-        y: 880
-        width: 40
-        height: 40
+        x: 140
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1531,10 +1531,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_98
       rect:
         serializedVersion: 2
-        x: 320
-        y: 880
-        width: 40
-        height: 40
+        x: 160
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1544,10 +1544,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_99
       rect:
         serializedVersion: 2
-        x: 360
-        y: 880
-        width: 40
-        height: 40
+        x: 180
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1557,10 +1557,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_100
       rect:
         serializedVersion: 2
-        x: 400
-        y: 880
-        width: 40
-        height: 40
+        x: 200
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,10 +1570,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_101
       rect:
         serializedVersion: 2
-        x: 440
-        y: 880
-        width: 40
-        height: 40
+        x: 220
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1583,10 +1583,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_102
       rect:
         serializedVersion: 2
-        x: 480
-        y: 880
-        width: 40
-        height: 40
+        x: 240
+        y: 160
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1596,10 +1596,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_103
       rect:
         serializedVersion: 2
-        x: 40
-        y: 840
-        width: 40
-        height: 40
+        x: 20
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1609,10 +1609,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_104
       rect:
         serializedVersion: 2
-        x: 80
-        y: 840
-        width: 40
-        height: 40
+        x: 40
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1622,10 +1622,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_105
       rect:
         serializedVersion: 2
-        x: 120
-        y: 840
-        width: 40
-        height: 40
+        x: 60
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1635,10 +1635,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_106
       rect:
         serializedVersion: 2
-        x: 160
-        y: 840
-        width: 40
-        height: 40
+        x: 80
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1648,10 +1648,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_107
       rect:
         serializedVersion: 2
-        x: 200
-        y: 840
-        width: 40
-        height: 40
+        x: 100
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1661,10 +1661,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_108
       rect:
         serializedVersion: 2
-        x: 240
-        y: 840
-        width: 40
-        height: 40
+        x: 120
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1674,10 +1674,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_109
       rect:
         serializedVersion: 2
-        x: 280
-        y: 840
-        width: 40
-        height: 40
+        x: 140
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1687,10 +1687,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_110
       rect:
         serializedVersion: 2
-        x: 320
-        y: 840
-        width: 40
-        height: 40
+        x: 160
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1700,10 +1700,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_111
       rect:
         serializedVersion: 2
-        x: 360
-        y: 840
-        width: 40
-        height: 40
+        x: 180
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1713,10 +1713,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_112
       rect:
         serializedVersion: 2
-        x: 400
-        y: 840
-        width: 40
-        height: 40
+        x: 200
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1726,10 +1726,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_113
       rect:
         serializedVersion: 2
-        x: 440
-        y: 840
-        width: 40
-        height: 40
+        x: 220
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1739,10 +1739,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_114
       rect:
         serializedVersion: 2
-        x: 480
-        y: 840
-        width: 40
-        height: 40
+        x: 240
+        y: 140
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1752,10 +1752,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_115
       rect:
         serializedVersion: 2
-        x: 40
-        y: 800
-        width: 40
-        height: 40
+        x: 20
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1765,10 +1765,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_116
       rect:
         serializedVersion: 2
-        x: 80
-        y: 800
-        width: 40
-        height: 40
+        x: 40
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1778,10 +1778,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_117
       rect:
         serializedVersion: 2
-        x: 120
-        y: 800
-        width: 40
-        height: 40
+        x: 60
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1791,10 +1791,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_118
       rect:
         serializedVersion: 2
-        x: 160
-        y: 800
-        width: 40
-        height: 40
+        x: 80
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1804,10 +1804,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_119
       rect:
         serializedVersion: 2
-        x: 200
-        y: 800
-        width: 40
-        height: 40
+        x: 100
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1817,10 +1817,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_120
       rect:
         serializedVersion: 2
-        x: 240
-        y: 800
-        width: 40
-        height: 40
+        x: 120
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1830,10 +1830,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_121
       rect:
         serializedVersion: 2
-        x: 280
-        y: 800
-        width: 40
-        height: 40
+        x: 140
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1843,10 +1843,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_122
       rect:
         serializedVersion: 2
-        x: 320
-        y: 800
-        width: 40
-        height: 40
+        x: 160
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1856,10 +1856,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_123
       rect:
         serializedVersion: 2
-        x: 360
-        y: 800
-        width: 40
-        height: 40
+        x: 180
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,10 +1869,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_124
       rect:
         serializedVersion: 2
-        x: 400
-        y: 800
-        width: 40
-        height: 40
+        x: 200
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1882,10 +1882,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_125
       rect:
         serializedVersion: 2
-        x: 440
-        y: 800
-        width: 40
-        height: 40
+        x: 220
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1895,10 +1895,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_126
       rect:
         serializedVersion: 2
-        x: 480
-        y: 800
-        width: 40
-        height: 40
+        x: 240
+        y: 120
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1908,10 +1908,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_127
       rect:
         serializedVersion: 2
-        x: 40
-        y: 760
-        width: 40
-        height: 40
+        x: 20
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1921,10 +1921,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_128
       rect:
         serializedVersion: 2
-        x: 80
-        y: 760
-        width: 40
-        height: 40
+        x: 40
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1934,10 +1934,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_129
       rect:
         serializedVersion: 2
-        x: 120
-        y: 760
-        width: 40
-        height: 40
+        x: 60
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1947,10 +1947,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_130
       rect:
         serializedVersion: 2
-        x: 160
-        y: 760
-        width: 40
-        height: 40
+        x: 80
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1960,10 +1960,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_131
       rect:
         serializedVersion: 2
-        x: 200
-        y: 760
-        width: 40
-        height: 40
+        x: 100
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1973,10 +1973,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_132
       rect:
         serializedVersion: 2
-        x: 240
-        y: 760
-        width: 40
-        height: 40
+        x: 120
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1986,10 +1986,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_133
       rect:
         serializedVersion: 2
-        x: 360
-        y: 760
-        width: 40
-        height: 40
+        x: 180
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1999,10 +1999,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_134
       rect:
         serializedVersion: 2
-        x: 400
-        y: 760
-        width: 40
-        height: 40
+        x: 200
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2012,10 +2012,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_135
       rect:
         serializedVersion: 2
-        x: 440
-        y: 760
-        width: 40
-        height: 40
+        x: 220
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2025,10 +2025,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_136
       rect:
         serializedVersion: 2
-        x: 480
-        y: 760
-        width: 40
-        height: 40
+        x: 240
+        y: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2038,10 +2038,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_137
       rect:
         serializedVersion: 2
-        x: 40
-        y: 720
-        width: 40
-        height: 40
+        x: 20
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2051,10 +2051,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_138
       rect:
         serializedVersion: 2
-        x: 80
-        y: 720
-        width: 40
-        height: 40
+        x: 40
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2064,10 +2064,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_139
       rect:
         serializedVersion: 2
-        x: 120
-        y: 720
-        width: 40
-        height: 40
+        x: 60
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2077,10 +2077,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_140
       rect:
         serializedVersion: 2
-        x: 160
-        y: 720
-        width: 40
-        height: 40
+        x: 80
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2090,10 +2090,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_141
       rect:
         serializedVersion: 2
-        x: 200
-        y: 720
-        width: 40
-        height: 40
+        x: 100
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2103,10 +2103,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_142
       rect:
         serializedVersion: 2
-        x: 240
-        y: 720
-        width: 40
-        height: 40
+        x: 120
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2116,10 +2116,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_143
       rect:
         serializedVersion: 2
-        x: 360
-        y: 720
-        width: 40
-        height: 40
+        x: 180
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2129,10 +2129,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_144
       rect:
         serializedVersion: 2
-        x: 400
-        y: 720
-        width: 40
-        height: 40
+        x: 200
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2142,10 +2142,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_145
       rect:
         serializedVersion: 2
-        x: 440
-        y: 720
-        width: 40
-        height: 40
+        x: 220
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2155,10 +2155,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_146
       rect:
         serializedVersion: 2
-        x: 480
-        y: 720
-        width: 40
-        height: 40
+        x: 240
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2168,10 +2168,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_147
       rect:
         serializedVersion: 2
-        x: 40
-        y: 680
-        width: 40
-        height: 40
+        x: 20
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2181,10 +2181,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_148
       rect:
         serializedVersion: 2
-        x: 80
-        y: 680
-        width: 40
-        height: 40
+        x: 40
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2194,10 +2194,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_149
       rect:
         serializedVersion: 2
-        x: 120
-        y: 680
-        width: 40
-        height: 40
+        x: 60
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2207,10 +2207,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_150
       rect:
         serializedVersion: 2
-        x: 160
-        y: 680
-        width: 40
-        height: 40
+        x: 80
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2220,10 +2220,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_151
       rect:
         serializedVersion: 2
-        x: 200
-        y: 680
-        width: 40
-        height: 40
+        x: 100
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2233,10 +2233,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_152
       rect:
         serializedVersion: 2
-        x: 240
-        y: 680
-        width: 40
-        height: 40
+        x: 120
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2246,10 +2246,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_153
       rect:
         serializedVersion: 2
-        x: 320
-        y: 680
-        width: 40
-        height: 40
+        x: 160
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2259,10 +2259,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_154
       rect:
         serializedVersion: 2
-        x: 360
-        y: 680
-        width: 40
-        height: 40
+        x: 180
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2272,10 +2272,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_155
       rect:
         serializedVersion: 2
-        x: 400
-        y: 680
-        width: 40
-        height: 40
+        x: 200
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2285,10 +2285,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_156
       rect:
         serializedVersion: 2
-        x: 440
-        y: 680
-        width: 40
-        height: 40
+        x: 220
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2298,10 +2298,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_157
       rect:
         serializedVersion: 2
-        x: 480
-        y: 680
-        width: 40
-        height: 40
+        x: 240
+        y: 60
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2311,10 +2311,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_158
       rect:
         serializedVersion: 2
-        x: 280
-        y: 640
-        width: 40
-        height: 40
+        x: 140
+        y: 40
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2324,10 +2324,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_159
       rect:
         serializedVersion: 2
-        x: 320
-        y: 640
-        width: 40
-        height: 40
+        x: 160
+        y: 40
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2337,10 +2337,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_160
       rect:
         serializedVersion: 2
-        x: 360
-        y: 640
-        width: 40
-        height: 40
+        x: 180
+        y: 40
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2350,10 +2350,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_161
       rect:
         serializedVersion: 2
-        x: 400
-        y: 640
-        width: 40
-        height: 40
+        x: 200
+        y: 40
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2363,10 +2363,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_162
       rect:
         serializedVersion: 2
-        x: 440
-        y: 640
-        width: 40
-        height: 40
+        x: 220
+        y: 40
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2376,10 +2376,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_163
       rect:
         serializedVersion: 2
-        x: 480
-        y: 640
-        width: 40
-        height: 40
+        x: 240
+        y: 40
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2389,10 +2389,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_164
       rect:
         serializedVersion: 2
-        x: 280
-        y: 600
-        width: 40
-        height: 40
+        x: 140
+        y: 20
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2402,10 +2402,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_165
       rect:
         serializedVersion: 2
-        x: 320
-        y: 600
-        width: 40
-        height: 40
+        x: 160
+        y: 20
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2415,10 +2415,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_166
       rect:
         serializedVersion: 2
-        x: 360
-        y: 600
-        width: 40
-        height: 40
+        x: 180
+        y: 20
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2428,10 +2428,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_167
       rect:
         serializedVersion: 2
-        x: 400
-        y: 600
-        width: 40
-        height: 40
+        x: 200
+        y: 20
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2441,10 +2441,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_168
       rect:
         serializedVersion: 2
-        x: 440
-        y: 600
-        width: 40
-        height: 40
+        x: 220
+        y: 20
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2454,10 +2454,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_169
       rect:
         serializedVersion: 2
-        x: 480
-        y: 600
-        width: 40
-        height: 40
+        x: 240
+        y: 20
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2467,10 +2467,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_170
       rect:
         serializedVersion: 2
-        x: 280
-        y: 560
-        width: 40
-        height: 40
+        x: 140
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2480,10 +2480,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_171
       rect:
         serializedVersion: 2
-        x: 320
-        y: 560
-        width: 40
-        height: 40
+        x: 160
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2493,10 +2493,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_172
       rect:
         serializedVersion: 2
-        x: 360
-        y: 560
-        width: 40
-        height: 40
+        x: 180
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2506,10 +2506,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_173
       rect:
         serializedVersion: 2
-        x: 400
-        y: 560
-        width: 40
-        height: 40
+        x: 200
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2519,10 +2519,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_174
       rect:
         serializedVersion: 2
-        x: 440
-        y: 560
-        width: 40
-        height: 40
+        x: 220
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2532,10 +2532,10 @@ TextureImporter:
       name: bg_dw_cyber_tileset_175
       rect:
         serializedVersion: 2
-        x: 480
-        y: 560
-        width: 40
-        height: 40
+        x: 240
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
