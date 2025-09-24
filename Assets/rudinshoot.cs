@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class moveleftdumbass : MonoBehaviour
+public class rudinshoot : MonoBehaviour
 {
     public float speed = 1f;
 

@@ -16,7 +16,7 @@ public class battleselect : MonoBehaviour
     public GameObject speakertext;
     public GameObject speakericon;
     public GameObject SAPMSTONSHOOOOOT;
-    [SerializeField] private Button targetButton; // assign in Inspector
+    [SerializeField] private Button targetButton;
 
     public void ButtonPressed()
     {

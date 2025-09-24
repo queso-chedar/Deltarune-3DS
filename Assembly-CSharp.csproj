@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{38A703DE-479C-A396-775F-35417FEC015C}</ProjectGuid>
+    <ProjectGuid>{5B8A48E2-6ABF-892D-2871-D0E9DDDBF21B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -115,7 +115,7 @@
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
-     <Compile Include="Assets\moveleftdumbass.cs" />
+     <Compile Include="Assets\rudinshoot.cs" />
      <Compile Include="Assets\scripte.cs" />
      <Compile Include="Assets\solid.cs" />
      <Compile Include="Assets\tpbar.cs" />
