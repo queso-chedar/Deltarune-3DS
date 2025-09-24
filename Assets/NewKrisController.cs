@@ -24,7 +24,7 @@ public class NewKrisController : MonoBehaviour
 		Vector2 circlePad = UnityEngine.N3DS.GamePad.CirclePad;
 
 		if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.B)){
-			if (speed <= 3){
+			if (speed <= 3.5){
 				speed += 0.2f;
 			}
 		}
