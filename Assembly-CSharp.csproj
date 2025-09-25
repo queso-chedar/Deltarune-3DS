@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Battlebox.cs" />
      <Compile Include="Assets\Examples\AccessPointExample\AccessPointScript.cs" />
      <Compile Include="Assets\Examples\AccessPointExample\GetInternetKey.cs" />
      <Compile Include="Assets\Examples\ErrorDialogExample\ErrorDialogScript.cs" />
@@ -111,14 +110,17 @@
      <Compile Include="Assets\Sounds\O\target.cs" />
      <Compile Include="Assets\Spanishorenglish.cs" />
      <Compile Include="Assets\UITextTrail.cs" />
+     <Compile Include="Assets\battle\Battlebox.cs" />
      <Compile Include="Assets\battle\Personajes\movepositionxseconds.cs" />
+     <Compile Include="Assets\battle\battleaimer.cs" />
+     <Compile Include="Assets\battle\enemyhealth.cs" />
+     <Compile Include="Assets\battle\rudinshoot.cs" />
+     <Compile Include="Assets\battle\scr_soul.cs" />
      <Compile Include="Assets\battle_helper.cs" />
      <Compile Include="Assets\battleselect.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
-     <Compile Include="Assets\rudinshoot.cs" />
-     <Compile Include="Assets\scr_soul.cs" />
      <Compile Include="Assets\scripte.cs" />
      <Compile Include="Assets\solid.cs" />
      <Compile Include="Assets\tpbar.cs" />
