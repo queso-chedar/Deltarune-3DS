@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewKrisController : MonoBehaviour
 {
 	private float speed;
+	public float hp;
 	public Animator animator;
 	public Rigidbody2D rb;
 	public Vector2 moveInput;
@@ -13,6 +14,7 @@ public class NewKrisController : MonoBehaviour
 	void Start()
 	{
 		speed = 1.2f;
+		hp = 90;
 	}
 
 	// Update is called once per frame
