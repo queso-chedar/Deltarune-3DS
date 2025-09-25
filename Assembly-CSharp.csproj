@@ -118,6 +118,7 @@
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
      <Compile Include="Assets\rudinshoot.cs" />
+     <Compile Include="Assets\scr_soul.cs" />
      <Compile Include="Assets\scripte.cs" />
      <Compile Include="Assets\solid.cs" />
      <Compile Include="Assets\tpbar.cs" />

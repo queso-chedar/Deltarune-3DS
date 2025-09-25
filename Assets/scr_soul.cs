@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewKrisController : MonoBehaviour
+public class scr_soul : MonoBehaviour
 {
 	private float speed;
 	public Animator animator;
@@ -23,12 +23,11 @@ public class NewKrisController : MonoBehaviour
 		moveInput = new Vector2(moveX, moveY).normalized;
 		Vector2 circlePad = UnityEngine.N3DS.GamePad.CirclePad;
 
-		if (Input.GetKey(KeyCode.X) || UnityEngine.N3DS.GamePad.GetButtonHold(N3dsButton.B)){
-			speed = 3;
+		if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.B)){
+			speed = 1f;
 		}
-
-		if (!Input.GetKey(KeyCode.X) && !UnityEngine.N3DS.GamePad.GetButtonHold(N3dsButton.B)){
-			speed = 1.4f;
+		if (!Input.GetKey(KeyCode.X) && !Input.GetKey(KeyCode.B)){
+			speed = 1.7f;
 		}
 
 		animator.SetFloat("Horizontal", moveX);
