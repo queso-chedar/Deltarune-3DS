@@ -5,7 +5,7 @@ using UnityEngine;
 public class scr_soul : MonoBehaviour
 {
 	private float speed;
-	public Animator animator;
+	public GameObject Attack;
 	public Rigidbody2D rb;
 	public Vector2 moveInput;
 
@@ -23,16 +23,14 @@ public class scr_soul : MonoBehaviour
 		moveInput = new Vector2(moveX, moveY).normalized;
 		Vector2 circlePad = UnityEngine.N3DS.GamePad.CirclePad;
 
-		if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.B)){
+		if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.B))
+		{
 			speed = 1f;
 		}
-		if (!Input.GetKey(KeyCode.X) && !Input.GetKey(KeyCode.B)){
+		if (!Input.GetKey(KeyCode.X) && !Input.GetKey(KeyCode.B))
+		{
 			speed = 1.7f;
 		}
-
-		animator.SetFloat("Horizontal", moveX);
-		animator.SetFloat("Vertical", moveY);
-		animator.SetFloat("Speed", moveInput.sqrMagnitude);
 	}
 	void FixedUpdate()
 	{
