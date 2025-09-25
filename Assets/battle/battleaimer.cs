@@ -12,6 +12,7 @@ public class battleaimer : MonoBehaviour
     public GameObject self;
     public GameObject attack;
     public GameObject battle_helper;
+	public GameObject enemy;
     private float attackstartX;
     private float attackstartY;
     private float soulstartX;
@@ -24,10 +25,12 @@ public class battleaimer : MonoBehaviour
 	public GameObject battlehitter;
 
     public GameObject Player;
-    private Animator playeranimator;
+	private Animator playeranimator;
+	private Animator enemyanimator;
     private enemyhealth eh;
     Text changetext;
     public GameObject funnytext;
+	
 
     void Start()
     {
@@ -39,6 +42,7 @@ public class battleaimer : MonoBehaviour
         soulstartX = soul.transform.position.x;
         soulstartY = soul.transform.position.y;
         playeranimator = Player.GetComponentInChildren<Animator>();
+		enemyanimator = enemy.GetComponentInChildren<Animator>();
         eh = enemyhealthmanager.GetComponent<enemyhealth>();
         timer = timertime;
         starttrans = false;
@@ -48,15 +52,16 @@ public class battleaimer : MonoBehaviour
     {
         transform.Translate(Vector3.left * speed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.A) && !starttrans || Input.GetKeyDown(KeyCode.Z) && !starttrans)
         {
             playeranimator.Play("Slash", 0, 0f);
-			if (eh != null && !starttrans)
+			enemyanimator.Play("hurt", 0, 0f);
+			if (eh != null)
 			{
 				eh.health -= 50;
 				starttrans = true;
 				speed = 0;
-            }
+			}
         }
 
         if (starttrans)
@@ -65,7 +70,8 @@ public class battleaimer : MonoBehaviour
             //Debug.Log(timer.ToString());
             if (timer <= 0)
             {
-                playeranimator.Play("fightreadyup", 0, 0f);
+                playeranimator.Play("FightIdle", 0, 0f);
+				enemyanimator.Play("idle", 0, 0f);
                 attack.transform.position = new Vector3(attackstartX, attackstartY, 0);
                 soul.transform.position = new Vector3(soulstartX, soulstartY, 0);
 				transform.position = new Vector3(startX, startY, 0);
