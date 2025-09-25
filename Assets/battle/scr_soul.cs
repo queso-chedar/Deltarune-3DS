@@ -22,10 +22,12 @@ public class scr_soul : MonoBehaviour
 		moveInput = new Vector2(moveX, moveY).normalized;
 		Vector2 circlePad = UnityEngine.N3DS.GamePad.CirclePad;
 
-		if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.B)){
+		if (Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.B))
+		{
 			speed = 1f;
 		}
-		if (!Input.GetKey(KeyCode.X) && !Input.GetKey(KeyCode.B)){
+		if (!Input.GetKey(KeyCode.X) && !Input.GetKey(KeyCode.B))
+		{
 			speed = 1.7f;
 		}
 	}

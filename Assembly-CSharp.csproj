@@ -116,6 +116,7 @@
      <Compile Include="Assets\battle\enemyhealth.cs" />
      <Compile Include="Assets\battle\rudinshoot.cs" />
      <Compile Include="Assets\battle\scr_soul.cs" />
+     <Compile Include="Assets\battle\tpgrazer.cs" />
      <Compile Include="Assets\battle_helper.cs" />
      <Compile Include="Assets\battleselect.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
