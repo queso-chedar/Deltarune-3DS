@@ -25,17 +25,20 @@ public class NewKrisController : MonoBehaviour
 		moveInput = new Vector2(moveX, moveY).normalized;
 		Vector2 circlePad = UnityEngine.N3DS.GamePad.CirclePad;
 
-		if (Input.GetKey(KeyCode.X) || UnityEngine.N3DS.GamePad.GetButtonHold(N3dsButton.B)){
+		if (Input.GetKey(KeyCode.X) || UnityEngine.N3DS.GamePad.GetButtonHold(N3dsButton.B))
+		{
 			speed = 3;
 		}
 
-		if (!Input.GetKey(KeyCode.X) && !UnityEngine.N3DS.GamePad.GetButtonHold(N3dsButton.B)){
+		if (!Input.GetKey(KeyCode.X) && !UnityEngine.N3DS.GamePad.GetButtonHold(N3dsButton.B))
+		{
 			speed = 1.4f;
 		}
 
 		animator.SetFloat("Horizontal", moveX);
 		animator.SetFloat("Vertical", moveY);
 		animator.SetFloat("Speed", moveInput.sqrMagnitude);
+		Debug.Log("player alive");
 	}
 	void FixedUpdate()
 	{

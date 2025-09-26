@@ -6,18 +6,49 @@ using UnityEngine.UI;
 public class enemyhealth : MonoBehaviour {
 
 	public float health = 100;
-
+    public Canvas myCanvas;
+    public Canvas myCanvasDown;
+	public NewKrisController krisController;
+    public CanvasGroup canvasGroup;
+    public CanvasGroup canvasGroupDown;
+    public float duracion = 2f; // tiempo total en segundos
+    private float tiempo = 0f;
+	public GameObject BatallaPrefab;
 	//string healthstring = health.ToString();
-
+	private float elapsedTime;
+	public GameObject Player;
+	private Animator playeranimator;
+	
 	Text changetext;
 	public GameObject funnytext;
 	void Start()
 	{
 		changetext = funnytext.GetComponent<Text>();
+		elapsedTime = 0f;
+		playeranimator = Player.GetComponentInChildren<Animator>();
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
+	void Update()
+	{
 		changetext.text = "ENEMY HEALTH: " + health.ToString();
+		if (health <= 0)
+		{
+			if (tiempo < duracion)
+			{
+				tiempo += .1f;
+				float t = tiempo / duracion;
+				canvasGroup.alpha = Mathf.Lerp(1f, 0f, t);
+				canvasGroupDown.alpha = Mathf.Lerp(1f, 0f, t);
+				if (canvasGroup.alpha <= 0)
+				{
+					BatallaPrefab.SetActive(false);
+					myCanvasDown.gameObject.SetActive(false);
+					myCanvas.gameObject.SetActive(false);
+					krisController.enabled = true;
+					playeranimator.Play("Idle_Right", 0, 0f);
+				}
+			}
+		}		
 	}
 }

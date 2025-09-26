@@ -76,22 +76,25 @@ public class battleaimer : MonoBehaviour
             {
                 playeranimator.Play("FightIdle", 0, 0f);
                 enemyanimator.Play("idle", 0, 0f);
-                attack.transform.position = new Vector3(attackstartX, attackstartY, 0);
-                soul.transform.position = new Vector3(soulstartX, soulstartY, 0);
-                transform.position = new Vector3(startX, startY, 0);
-                battleBox.SetActive(true);
-                soul.SetActive(true);
-                tpgrazer.SetActive(true);
-                attack.SetActive(true);
-                krispressattack.SetActive(false);
-                krisaimhead.SetActive(false);
-                battle_helper.SetActive(true);
-                changetext.text = "poo poo pee pee";
-                timer = timertime;
-                starttrans = false;
-                speed = 80;
-                battlehitter.SetActive(false);
-                self.SetActive(false);
+                if (eh.health > 0)
+                {
+                    attack.transform.position = new Vector3(attackstartX, attackstartY, 0);
+                    soul.transform.position = new Vector3(soulstartX, soulstartY, 0);
+                    transform.position = new Vector3(startX, startY, 0);
+                    battleBox.SetActive(true);
+                    soul.SetActive(true);
+                    tpgrazer.SetActive(true);
+                    attack.SetActive(true);
+                    krispressattack.SetActive(false);
+                    krisaimhead.SetActive(false);
+                    battle_helper.SetActive(true);
+                    changetext.text = "poo poo pee pee";
+                    timer = timertime;
+                    starttrans = false;
+                    speed = 80;
+                    battlehitter.SetActive(false);
+                    self.SetActive(false);
+                }
             }
         }
     }
