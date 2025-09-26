@@ -125,6 +125,7 @@
      <Compile Include="Assets\scr_npc.cs" />
      <Compile Include="Assets\scripte.cs" />
      <Compile Include="Assets\solid.cs" />
+     <Compile Include="Assets\tor_krisroomcutscene.cs" />
      <Compile Include="Assets\tpbar.cs" />
      <None Include="Assets\Misc\HOLYTITAN\READ ME.txt" />
      <None Include="Assets\SHADERS\Simple Color.shader" />

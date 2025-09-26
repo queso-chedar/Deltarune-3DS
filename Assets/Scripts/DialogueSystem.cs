@@ -23,7 +23,7 @@ public class DialogueSystem : MonoBehaviour
     [System.Serializable]
     public class Dialogue
     {
-        [TextArea(1,4)] public string message;
+        [TextArea(1, 4)] public string message;
         public Sprite headSprite;
         public bool skippable = true;
         public float autoAdvanceDelay = 1f;
@@ -48,7 +48,7 @@ public class DialogueSystem : MonoBehaviour
     public float letterSoundCooldown = 0.03f;
 
     GameObject cachedCanvasObj;
-    GameObject currentDialogueBox;
+    public GameObject currentDialogueBox;
     Text dialogueText;
     Image headImage;
 
@@ -74,7 +74,7 @@ public class DialogueSystem : MonoBehaviour
     int lastTypeSoundIndex = -1;
     float lastSoundTime = -10f;
 
-    void Start()
+    public void Start()
     {
         InitializeAudioPool();
         cachedCanvasObj = GameObject.Find("CanvasPrefab");
@@ -156,15 +156,26 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
-    void ShowDialogue()
+    public void ShowDialogue()
     {
+        if (dialogues == null || dialogues.Length == 0) return;
+        if (currentDialogueIndex >= dialogues.Length) return;
         StartCoroutine(ShowDialogueWithDelay());
     }
+
 
     IEnumerator ShowDialogueWithDelay()
     {
         int index = currentDialogueIndex;
         if (dialogues == null || dialogues.Length == 0) yield break;
+        if (index < 0 || index >= dialogues.Length) yield break;
+
+        if (string.IsNullOrEmpty(dialogues[index].message))
+        {
+            NextDialogue();
+            yield break;
+        }
+
         var d = dialogues[index];
 
         if (d.startDelay > 0)
@@ -272,7 +283,7 @@ public class DialogueSystem : MonoBehaviour
         typingCoroutine = null;
 
         if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
-        
+
         /* broken idk how to fix
         if (!d.skippable)
         {
@@ -381,5 +392,13 @@ public class DialogueSystem : MonoBehaviour
         if (cachedVLayouts != null) foreach (var g in cachedVLayouts) if (g != null) g.enabled = enable;
         if (cachedOutlines != null) foreach (var o in cachedOutlines) if (o != null) o.enabled = enable;
         if (cachedRaycaster != null) cachedRaycaster.enabled = enable;
+    }
+    public void RestartDialogue()
+    {
+        currentDialogueIndex = 0;
+        dialogues[0].message = "* I will wait outside for you, alright?";
+        dialogues[1].message = "";
+        CloseDialogue();
+        ShowDialogue();
     }
 }
