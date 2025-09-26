@@ -271,7 +271,8 @@ public class DialogueSystem : MonoBehaviour
         typingCoroutine = null;
 
         if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
-
+        
+        /* broken idk how to fix
         if (!d.skippable)
         {
             waitingForAutoAdvance = true;
@@ -279,6 +280,7 @@ public class DialogueSystem : MonoBehaviour
             waitingForAutoAdvance = false;
             NextDialogue();
         }
+        */
     }
 
     float GetCharAdvance(char c)
