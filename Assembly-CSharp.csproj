@@ -58,6 +58,7 @@
      <Compile Include="Assets\Examples\SocketsExample\TestTcpServer.cs" />
      <Compile Include="Assets\Examples\StreetPassIcons\StreetPassExample.cs" />
      <Compile Include="Assets\FadeOutorIn.cs" />
+     <Compile Include="Assets\Interactablescript.cs" />
      <Compile Include="Assets\Misc\CameraBounds.cs" />
      <Compile Include="Assets\Misc\CameraFollow.cs" />
      <Compile Include="Assets\NewKrisController.cs" />
