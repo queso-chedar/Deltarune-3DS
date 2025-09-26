@@ -14,10 +14,13 @@ public class battle_helper : MonoBehaviour
 
     //thy objects!
     public GameObject battleBox;
+    public GameObject tpgrazer;
     public GameObject soul;
     public GameObject playerrow;
     public GameObject speakertext;
     public GameObject speakericon;
+    public GameObject krisaimhead;
+    public GameObject krispressattack;
     //public GameObject attack;
     public GameObject battlehelper;
     public GameObject EventSystemthingy;
@@ -37,8 +40,11 @@ public class battle_helper : MonoBehaviour
             battleBox.GetComponent<Animator>().Play("battlebox_destroy");
             playerrow.SetActive(true);
             soul.SetActive(false);
+            tpgrazer.SetActive(false);
             speakertext.SetActive(true);
             speakericon.SetActive(true);
+			krispressattack.SetActive(false);
+            krisaimhead.SetActive(false);
             //attack.SetActive(false);
             EventSystemthingy.SetActive(true);
             battlehelper.SetActive(false);

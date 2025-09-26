@@ -6,6 +6,7 @@ public class tpgrazer : MonoBehaviour
 {
 
 	public tpbar tpbar;
+	public GameObject Soul;
 	SpriteRenderer m_SpriteRenderer;
 
 	private float alpha;
@@ -19,6 +20,7 @@ public class tpgrazer : MonoBehaviour
 	{
 		alpha -= 0.07f;
 		m_SpriteRenderer.color = new Color(1f, 1f, 1f, alpha);
+		transform.position = new Vector3(Soul.transform.position.x, Soul.transform.position.y, transform.position.z);
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)

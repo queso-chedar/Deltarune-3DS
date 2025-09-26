@@ -12,6 +12,8 @@ public class battleselect : MonoBehaviour
     public GameObject soul;
     public GameObject playerrow;
     public GameObject self;
+    public GameObject krisaimhead;
+    public GameObject krispressattack;
     public GameObject speakertext;
     public GameObject speakericon;
     public GameObject attack;
@@ -51,6 +53,10 @@ public class battleselect : MonoBehaviour
         //self.SetActive(true);
         speakertext.SetActive(false);
         speakericon.SetActive(false);
+        battlehitter.SetActive(false);
+        
+        krispressattack.SetActive(true);
+        krisaimhead.SetActive(true);
 
         battleaimer.SetActive(true);
         battlehitter.SetActive(true);

@@ -8,11 +8,14 @@ public class battleaimer : MonoBehaviour
     public float speed = 80;
     public GameObject enemyhealthmanager;
     public GameObject battleBox;
+    public GameObject tpgrazer;
     public GameObject soul;
     public GameObject self;
     public GameObject attack;
     public GameObject battle_helper;
 	public GameObject enemy;
+    public GameObject krisaimhead;
+    public GameObject krispressattack;
     private float attackstartX;
     private float attackstartY;
     private float soulstartX;
@@ -23,7 +26,7 @@ public class battleaimer : MonoBehaviour
     private float timer;
     private bool starttrans;
 	public GameObject battlehitter;
-
+    public tpbar tpbar;
     public GameObject Player;
 	private Animator playeranimator;
 	private Animator enemyanimator;
@@ -56,12 +59,13 @@ public class battleaimer : MonoBehaviour
         {
             playeranimator.Play("Slash", 0, 0f);
 			enemyanimator.Play("hurt", 0, 0f);
+            tpbar.TpValue += 7;
 			if (eh != null)
-			{
-				eh.health -= 50;
-				starttrans = true;
-				speed = 0;
-			}
+            {
+                eh.health -= 50;
+                starttrans = true;
+                speed = 0;
+            }
         }
 
         if (starttrans)
@@ -71,19 +75,22 @@ public class battleaimer : MonoBehaviour
             if (timer <= 0)
             {
                 playeranimator.Play("FightIdle", 0, 0f);
-				enemyanimator.Play("idle", 0, 0f);
+                enemyanimator.Play("idle", 0, 0f);
                 attack.transform.position = new Vector3(attackstartX, attackstartY, 0);
                 soul.transform.position = new Vector3(soulstartX, soulstartY, 0);
-				transform.position = new Vector3(startX, startY, 0);
+                transform.position = new Vector3(startX, startY, 0);
                 battleBox.SetActive(true);
                 soul.SetActive(true);
+                tpgrazer.SetActive(true);
                 attack.SetActive(true);
-				battlehitter.SetActive(false);
+                krispressattack.SetActive(false);
+                krisaimhead.SetActive(false);
                 battle_helper.SetActive(true);
                 changetext.text = "poo poo pee pee";
-				timer = timertime;
-				starttrans = false;
-				speed = 80;
+                timer = timertime;
+                starttrans = false;
+                speed = 80;
+                battlehitter.SetActive(false);
                 self.SetActive(false);
             }
         }
