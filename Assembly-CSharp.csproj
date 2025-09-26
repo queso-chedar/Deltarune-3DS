@@ -122,6 +122,7 @@
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
+     <Compile Include="Assets\scr_npc.cs" />
      <Compile Include="Assets\scripte.cs" />
      <Compile Include="Assets\solid.cs" />
      <Compile Include="Assets\tpbar.cs" />

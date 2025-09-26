@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: 151773101da7eb8489e601286927b571
+timeCreated: 1758876725
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 959b853d-2c10-4604-b2da-d84e4fd3837b_0
+    21300002: 959b853d-2c10-4604-b2da-d84e4fd3837b_1
+    21300004: 959b853d-2c10-4604-b2da-d84e4fd3837b_2
+    21300006: 959b853d-2c10-4604-b2da-d84e4fd3837b_3
+    21300008: 959b853d-2c10-4604-b2da-d84e4fd3837b_4
+    21300010: 959b853d-2c10-4604-b2da-d84e4fd3837b_5
+    21300012: 959b853d-2c10-4604-b2da-d84e4fd3837b_6
+    21300014: 959b853d-2c10-4604-b2da-d84e4fd3837b_7
+    21300016: 959b853d-2c10-4604-b2da-d84e4fd3837b_8
+    21300018: 959b853d-2c10-4604-b2da-d84e4fd3837b_9
+    21300020: 959b853d-2c10-4604-b2da-d84e4fd3837b_10
+    21300022: 959b853d-2c10-4604-b2da-d84e4fd3837b_11
+    21300024: 959b853d-2c10-4604-b2da-d84e4fd3837b_12
+    21300026: 959b853d-2c10-4604-b2da-d84e4fd3837b_13
+    21300028: 959b853d-2c10-4604-b2da-d84e4fd3837b_14
+    21300030: lancerheads_0
+    21300032: lancerheads_1
+    21300034: lancerheads_2
+    21300036: lancerheads_3
+    21300038: lancerheads_4
+    21300040: lancerheads_5
+    21300042: lancerheads_6
+    21300044: lancerheads_7
+    21300046: lancerheads_8
+    21300048: lancerheads_9
+    21300050: lancerheads_10
+    21300052: lancerheads_11
+    21300054: lancerheads_12
+    21300056: lancerheads_13
+    21300058: lancerheads_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 80
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Nintendo 3DS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lancerheads_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 66
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 70
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 67
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 69
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 71
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 69
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 72
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 10
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 10
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 8
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 8
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancerheads_14
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 9
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

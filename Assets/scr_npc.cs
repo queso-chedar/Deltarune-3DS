@@ -1,22 +1,20 @@
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueSystem : MonoBehaviour
+public class scr_npc : MonoBehaviour
 {
     [Header("Configuración básica")]
     public GameObject dialogueBoxPrefab;
+    public NewKrisController krisController;
     public Dialogue[] dialogues;
 
     [System.Serializable]
     public class DialogueEventConfig
     {
         public string eventTrigger;
-        [Tooltip("Activar evento al FINAL del diálogo")]
         public bool triggerAtEnd;
-        [Tooltip("Retraso adicional para este evento")]
         public float eventDelay;
     }
 
@@ -28,7 +26,6 @@ public class DialogueSystem : MonoBehaviour
         public bool skippable = true;
         public float autoAdvanceDelay = 1f;
         public float startDelay = 0f;
-        [Header("Eventos")]
         public List<DialogueEventConfig> eventTriggers = new List<DialogueEventConfig>();
     }
 
@@ -36,9 +33,9 @@ public class DialogueSystem : MonoBehaviour
     public event DialogueEvent OnEventTriggered;
 
     [Header("Texto / Tipeo")]
-    public float textSpeed = 0.05f;
-    public float punctuationPause = 0.2f;
-    public int textUpdateBatchSize = 3;
+    public float textSpeed = 0.035f;
+    public float punctuationPause = 0.05f;
+    public int textUpdateBatchSize = 1;
     public bool disableLayoutWhileTyping = true;
     public bool lowPerfMode = false;
 
@@ -73,47 +70,45 @@ public class DialogueSystem : MonoBehaviour
     Coroutine typingCoroutine = null;
     int lastTypeSoundIndex = -1;
     float lastSoundTime = -10f;
+    bool touchingplayer = false;
 
     void Start()
     {
         InitializeAudioPool();
         cachedCanvasObj = GameObject.Find("CanvasPrefab");
-        if (cachedCanvasObj == null) Debug.LogWarning("CanvasPrefab no encontrado.");
         PreloadFontCharacters();
-        ShowDialogue();
     }
 
-    // ---- NEW: input handling restored ----
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player")) touchingplayer = true;
+        if (!collision.CompareTag("Player")) touchingplayer = false;
+    }
+
     void Update()
     {
+        if (touchingplayer && currentDialogueBox == null && (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z)))
+        {
+            krisController.enabled = false;
+            ShowDialogue();
+            return;
+        }
+
         if (currentDialogueBox == null) return;
 
-        // If typing: allow skipping/complete with X, B, Return
         if (isTyping)
         {
             if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.Return))
             {
-                // Only allow skip if current dialogue is skippable
-                if (currentDialogueIndex < dialogues.Length && dialogues[currentDialogueIndex].skippable)
-                {
-                    CompleteText();
-                }
-                else
-                {
-                    CompleteText();
-                }
+                if (currentDialogueIndex < dialogues.Length && dialogues[currentDialogueIndex].skippable) CompleteText();
+                else CompleteText();
             }
         }
         else
         {
-            // Not typing: advance with Z or Return or A
-            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.A))
-            {
-                NextDialogue();
-            }
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.A)) NextDialogue();
         }
     }
-    // ---------------------------------------
 
     void InitializeAudioPool()
     {
@@ -177,8 +172,14 @@ public class DialogueSystem : MonoBehaviour
 
         if (currentDialogueBox == null)
         {
-            if (cachedCanvasObj == null) { Debug.LogError("No Canvas para instanciar diálogo."); yield break; }
+            if (cachedCanvasObj == null) yield break;
+
             currentDialogueBox = Instantiate(dialogueBoxPrefab, cachedCanvasObj.transform);
+            var rt = currentDialogueBox.GetComponent<RectTransform>();
+            rt.anchorMin = new Vector2(0.5f, 0.5f);
+            rt.anchorMax = new Vector2(0.5f, 0.5f);
+            rt.pivot = new Vector2(0.5f, 0.5f);
+            rt.anchoredPosition = new Vector2(0f, -80f);
 
             dialogueText = currentDialogueBox.GetComponentInChildren<Text>();
             if (dialogueText != null)
@@ -194,10 +195,16 @@ public class DialogueSystem : MonoBehaviour
             if (headT != null) headImage = headT.GetComponent<Image>();
 
             CacheLayoutComponents();
+            LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)currentDialogueBox.transform);
+            ClampToCanvas((RectTransform)currentDialogueBox.transform);
         }
 
         currentFullText = d.message;
-        if (headImage != null) { headImage.sprite = d.headSprite; headImage.enabled = (d.headSprite != null); }
+        if (headImage != null)
+        {
+            FitHeadToSprite(d.headSprite);
+            headImage.enabled = (d.headSprite != null);
+        }
 
         foreach (var ev in d.eventTriggers)
         {
@@ -206,6 +213,8 @@ public class DialogueSystem : MonoBehaviour
 
         if (typingCoroutine != null) StopCoroutine(typingCoroutine);
         typingCoroutine = StartCoroutine(TypeText(currentFullText, index));
+        LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)currentDialogueBox.transform);
+        ClampToCanvas((RectTransform)currentDialogueBox.transform);
     }
 
     IEnumerator TriggerEventWithDelay(DialogueEventConfig ev)
@@ -272,16 +281,6 @@ public class DialogueSystem : MonoBehaviour
         typingCoroutine = null;
 
         if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
-        
-        /* broken idk how to fix
-        if (!d.skippable)
-        {
-            waitingForAutoAdvance = true;
-            var w = GetWFS(d.autoAdvanceDelay); if (w != null) yield return w; else yield return null;
-            waitingForAutoAdvance = false;
-            NextDialogue();
-        }
-        */
     }
 
     float GetCharAdvance(char c)
@@ -328,6 +327,12 @@ public class DialogueSystem : MonoBehaviour
         isTyping = false;
         waitingForAutoAdvance = false;
         if (disableLayoutWhileTyping) ToggleLayoutAndRaycaster(true);
+        if (currentDialogueBox != null)
+        {
+            var rt = (RectTransform)currentDialogueBox.transform;
+            LayoutRebuilder.ForceRebuildLayoutImmediate(rt);
+            ClampToCanvas(rt);
+        }
     }
 
     public void NextDialogue()
@@ -346,9 +351,20 @@ public class DialogueSystem : MonoBehaviour
 
     void CloseDialogue()
     {
-        if (typingCoroutine != null) { StopCoroutine(typingCoroutine); typingCoroutine = null; }
-        if (currentDialogueBox != null) { Destroy(currentDialogueBox); currentDialogueBox = null; }
-        isTyping = false; waitingForAutoAdvance = false;
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+        if (currentDialogueBox != null)
+        {
+            Destroy(currentDialogueBox);
+            currentDialogueBox = null;
+            krisController.enabled = true;
+        }
+        isTyping = false;
+        waitingForAutoAdvance = false;
+        currentDialogueIndex = 0;
     }
 
     void CacheLayoutComponents()
@@ -381,5 +397,44 @@ public class DialogueSystem : MonoBehaviour
         if (cachedVLayouts != null) foreach (var g in cachedVLayouts) if (g != null) g.enabled = enable;
         if (cachedOutlines != null) foreach (var o in cachedOutlines) if (o != null) o.enabled = enable;
         if (cachedRaycaster != null) cachedRaycaster.enabled = enable;
+    }
+
+	void FitHeadToSprite(Sprite s)
+	{
+		if (headImage == null || s == null)
+		{
+			return;
+		}
+	
+		headImage.preserveAspect = true;
+		headImage.sprite = s;
+		headImage.SetNativeSize();
+		var rt = (RectTransform)headImage.transform;
+		const float maxW = 220f;
+		const float maxH = 220f;
+		Vector2 sz = rt.sizeDelta;
+		float k = Mathf.Min(maxW / Mathf.Max(1f, sz.x), maxH / Mathf.Max(1f, sz.y), 1f);
+		rt.sizeDelta = sz * k * 0.8f;
+	}
+
+    void ClampToCanvas(RectTransform target)
+    {
+        if (target == null) return;
+        var canvas = target.GetComponentInParent<Canvas>();
+        if (canvas == null) return;
+        var root = (RectTransform)canvas.transform;
+        Canvas.ForceUpdateCanvases();
+        Vector2 boxSize = target.rect.size;
+        Vector2 pos = target.anchoredPosition;
+        Rect cr = root.rect;
+        float halfW = boxSize.x * 0.5f;
+        float halfH = boxSize.y * 0.5f;
+        float minX = cr.xMin + halfW;
+        float maxX = cr.xMax - halfW;
+        float minY = cr.yMin + halfH;
+        float maxY = cr.yMax - halfH;
+        pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        pos.y = Mathf.Clamp(pos.y, minY, maxY);
+        target.anchoredPosition = pos;
     }
 }

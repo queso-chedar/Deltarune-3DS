@@ -16,9 +16,20 @@ public class scr_soul : MonoBehaviour
 	void Start()
 	{
 		speed = 1.2f;
-		if (hptext) realhptext = hptext.GetComponent<Text>();
-		if (!realhptext) realhptext = GetComponentInChildren<Text>();
-		if (!player) player = FindObjectOfType<NewKrisController>();
+		if (hptext)
+		{
+			realhptext = hptext.GetComponent<Text>();
+		}
+		
+		if (!realhptext)
+		{
+			realhptext = GetComponentInChildren<Text>();
+		}
+
+		if (!player)
+		{
+			player = FindObjectOfType<NewKrisController>();
+		}
 	}
 
 	void Update()
@@ -36,7 +47,10 @@ public class scr_soul : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		if (rb) rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
+		if (rb)
+		{
+			rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
+		}
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
