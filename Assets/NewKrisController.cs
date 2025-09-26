@@ -38,7 +38,6 @@ public class NewKrisController : MonoBehaviour
 		animator.SetFloat("Horizontal", moveX);
 		animator.SetFloat("Vertical", moveY);
 		animator.SetFloat("Speed", moveInput.sqrMagnitude);
-		Debug.Log("player alive");
 	}
 	void FixedUpdate()
 	{
