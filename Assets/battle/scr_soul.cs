@@ -7,6 +7,7 @@ public class scr_soul : MonoBehaviour
 {
 	private float speed;
 	[SerializeField] private NewKrisController player;
+	public Slider healthslider;
 	public GameObject hptext;
 	public Rigidbody2D rb;
 	public Vector2 moveInput;
@@ -30,6 +31,7 @@ public class scr_soul : MonoBehaviour
 
 		if (realhptext && player)
 			realhptext.text = player.hp.ToString("0");
+		healthslider.value = player.hp;
 	}
 
 	void FixedUpdate()
