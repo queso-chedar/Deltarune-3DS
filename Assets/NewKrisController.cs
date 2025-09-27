@@ -10,13 +10,17 @@ public class NewKrisController : MonoBehaviour
 	public Rigidbody2D rb;
 	public Vector2 moveInput;
 	private float deltaTime = 0.0f;
+	public bool inisdeclosettexttrigger;
+	public bool inisdeclosettexttriggerend;
 	// Use this for initialization
 	void Start()
 	{
 		speed = 1.2f;
 		hp = 90;
-        QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = 30;
+		QualitySettings.vSyncCount = 0;
+		Application.targetFrameRate = 30;
+		inisdeclosettexttrigger = false;
+		inisdeclosettexttriggerend = false;
 	}
 
 	// Update is called once per frame
@@ -45,5 +49,29 @@ public class NewKrisController : MonoBehaviour
 	{
 		// Fisicas
 		rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
+	}
+
+
+	//ignore this, its for the closet cutscene
+	public void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.CompareTag("closetcutscene"))
+		{
+			inisdeclosettexttrigger = true;
+		}
+		else
+		{
+			inisdeclosettexttrigger = false;
+		}
+
+
+		if (collision.CompareTag("closetcutsceneend"))
+		{
+			inisdeclosettexttriggerend = true;
+		}
+		else
+		{
+			inisdeclosettexttriggerend = false;
+		}
 	}
 }

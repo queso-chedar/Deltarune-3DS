@@ -101,6 +101,7 @@
      <Compile Include="Assets\Scripts\ZoomLayers.cs" />
      <Compile Include="Assets\Scripts\ZoomResetDarken.cs" />
      <Compile Include="Assets\Scripts\cebollaevento.cs" />
+     <Compile Include="Assets\Scripts\dialogercutscenemaker.cs" />
      <Compile Include="Assets\Scripts\layer.cs" />
      <Compile Include="Assets\Scripts\mutesong.cs" />
      <Compile Include="Assets\Scripts\sceneselect.cs" />
@@ -125,6 +126,8 @@
      <Compile Include="Assets\battle_helper.cs" />
      <Compile Include="Assets\battleselect.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
+     <Compile Include="Assets\closetcutscene.cs" />
+     <Compile Include="Assets\closettrigger.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
      <Compile Include="Assets\scr_npc.cs" />

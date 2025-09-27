@@ -400,4 +400,24 @@ public class torcartextcutscene : MonoBehaviour
         CloseDialogue();
         ShowDialogue();
     }
+    void ClampToCanvas(RectTransform target)
+    {
+        if (target == null) return;
+        var canvas = target.GetComponentInParent<Canvas>();
+        if (canvas == null) return;
+        var root = (RectTransform)canvas.transform;
+        Canvas.ForceUpdateCanvases();
+        Vector2 boxSize = target.rect.size;
+        Vector2 pos = target.anchoredPosition;
+        Rect cr = root.rect;
+        float halfW = boxSize.x * 0.5f;
+        float halfH = boxSize.y * 0.5f;
+        float minX = cr.xMin + halfW;
+        float maxX = cr.xMax - halfW;
+        float minY = cr.yMin + halfH;
+        float maxY = cr.yMax - halfH;
+        pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        pos.y = Mathf.Clamp(pos.y, minY, maxY);
+        target.anchoredPosition = pos;
+    }
 }
