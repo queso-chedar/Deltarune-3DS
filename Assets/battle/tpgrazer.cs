@@ -8,7 +8,6 @@ public class tpgrazer : MonoBehaviour
 	public tpbar tpbar;
 	public GameObject Soul;
 	SpriteRenderer m_SpriteRenderer;
-
 	private float alpha;
 	void Start()
 	{
@@ -27,9 +26,12 @@ public class tpgrazer : MonoBehaviour
 	{
 		if (collision.CompareTag("attack"))
 		{
-			alpha = 1;
-			tpbar.TpValue += 2;
-			//Debug.Log(tpbar.TpValue.ToString());
+			AttackGraze();
 		}
+	}
+	public void AttackGraze()
+	{
+		alpha = 1;
+		tpbar.TpValue += 2;
 	}
 }

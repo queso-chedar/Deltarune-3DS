@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class enemyhealth : MonoBehaviour {
-
-	public float health = 100;
-    public Canvas myCanvas;
-    public Canvas myCanvasDown;
+public class enemyhealth : MonoBehaviour
+{
+	public Canvas myCanvas;
+	public Canvas myCanvasDown;
 	public NewKrisController krisController;
-    public CanvasGroup canvasGroup;
-    public CanvasGroup canvasGroupDown;
-    public float duracion = 2f; // tiempo total en segundos
-    private float tiempo = 0f;
+	public CanvasGroup canvasGroup;
+	public CanvasGroup canvasGroupDown;
+	public float duracion = 2f; // tiempo total en segundos
+	private float tiempo = 0f;
 	public GameObject BatallaPrefab;
 	//string healthstring = health.ToString();
 	private float elapsedTime;
 	public GameObject Player;
 	private Animator playeranimator;
-	
+	public bool Finishtbattlebool;
+
 	Text changetext;
 	public GameObject funnytext;
 	void Start()
@@ -31,10 +31,14 @@ public class enemyhealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
-		changetext.text = "ENEMY HEALTH: " + health.ToString();
-		if (health <= 0)
+		if (Finishtbattlebool == true)
 		{
-			if (tiempo < duracion)
+			FinishBattle();
+		}
+	}
+	public void FinishBattle()
+	{
+         if (tiempo < duracion)
 			{
 				tiempo += .1f;
 				float t = tiempo / duracion;
@@ -49,6 +53,5 @@ public class enemyhealth : MonoBehaviour {
 					playeranimator.Play("Idle_Right", 0, 0f);
 				}
 			}
-		}		
 	}
 }

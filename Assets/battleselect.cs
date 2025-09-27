@@ -22,6 +22,7 @@ public class battleselect : MonoBehaviour
     public GameObject Player;
     public GameObject battleaimer;
     public GameObject battlehitter;
+    public FightBar Fightbarscript;
     [SerializeField] private Button targetButton;
 
     private float attackstartX;
@@ -54,7 +55,7 @@ public class battleselect : MonoBehaviour
         speakertext.SetActive(false);
         speakericon.SetActive(false);
         battlehitter.SetActive(false);
-        
+
         krispressattack.SetActive(true);
         krisaimhead.SetActive(true);
 
@@ -65,6 +66,7 @@ public class battleselect : MonoBehaviour
         //battle_helper.SetActive(true);
         EventSystemthingy.SetActive(false);
         //changetext.text = "poo poo pee pee";
+        Fightbarscript.On = true;
     }
 
     void Update()
