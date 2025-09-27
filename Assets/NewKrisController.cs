@@ -9,12 +9,14 @@ public class NewKrisController : MonoBehaviour
 	public Animator animator;
 	public Rigidbody2D rb;
 	public Vector2 moveInput;
-
+	private float deltaTime = 0.0f;
 	// Use this for initialization
 	void Start()
 	{
 		speed = 1.2f;
 		hp = 90;
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 30;
 	}
 
 	// Update is called once per frame

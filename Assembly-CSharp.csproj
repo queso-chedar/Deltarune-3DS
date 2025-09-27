@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{38A703DE-479C-A396-775F-35417FEC015C}</ProjectGuid>
+    <ProjectGuid>{5B8A48E2-6ABF-892D-2871-D0E9DDDBF21B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -106,6 +106,7 @@
      <Compile Include="Assets\Scripts\sceneselect.cs" />
      <Compile Include="Assets\Scripts\sceneselectNOTUI.cs" />
      <Compile Include="Assets\Scripts\scr_Tween.cs" />
+     <Compile Include="Assets\Scripts\torcartextcutscene.cs" />
      <Compile Include="Assets\SortingOrderScript.cs" />
      <Compile Include="Assets\Sounds\O\Enemy.cs" />
      <Compile Include="Assets\Sounds\O\Placeholder.cs" />
@@ -129,6 +130,7 @@
      <Compile Include="Assets\scr_npc.cs" />
      <Compile Include="Assets\scripte.cs" />
      <Compile Include="Assets\solid.cs" />
+     <Compile Include="Assets\tor_cutsceneoutside.cs" />
      <Compile Include="Assets\tor_krisroomcutscene.cs" />
      <Compile Include="Assets\tpbar.cs" />
      <None Include="Assets\Misc\HOLYTITAN\READ ME.txt" />
