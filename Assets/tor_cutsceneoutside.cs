@@ -69,8 +69,8 @@ public class tor_cutsceneoutside : MonoBehaviour {
 							}
 							if (torielkrisstarecount <= 0)
 							{
-								fakeplayerobject.transform.position = Vector3.MoveTowards(fakeplayerobject.transform.position, new Vector3(-13.98f, fakeplayerobject.transform.position.y, fakeplayerobject.transform.position.z), Time.deltaTime * 1.5f);
-								torieltext.transform.position = Vector3.MoveTowards(torieltext.transform.position, new Vector3(-13.98f, torieltext.transform.position.y, torieltext.transform.position.z), Time.deltaTime * 1.5f);
+								fakeplayerobject.transform.position = Vector3.MoveTowards(fakeplayerobject.transform.position, new Vector3(-13.98f, fakeplayerobject.transform.position.y, fakeplayerobject.transform.position.z), Time.deltaTime * 1f);
+								torieltext.transform.position = Vector3.MoveTowards(torieltext.transform.position, new Vector3(-13.98f, torieltext.transform.position.y, torieltext.transform.position.z), Time.deltaTime * 1f);
 							}
 						}
 					}
