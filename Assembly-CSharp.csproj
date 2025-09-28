@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5B8A48E2-6ABF-892D-2871-D0E9DDDBF21B}</ProjectGuid>
+    <ProjectGuid>{38A703DE-479C-A396-775F-35417FEC015C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -115,6 +115,7 @@
      <Compile Include="Assets\Sounds\O\target.cs" />
      <Compile Include="Assets\Spanishorenglish.cs" />
      <Compile Include="Assets\TextSystem2.cs" />
+     <Compile Include="Assets\TextWithSprites.cs" />
      <Compile Include="Assets\UITextTrail.cs" />
      <Compile Include="Assets\battle\Battlebox.cs" />
      <Compile Include="Assets\battle\Personajes\movepositionxseconds.cs" />
@@ -124,6 +125,7 @@
      <Compile Include="Assets\battle\scr_soul.cs" />
      <Compile Include="Assets\battle\tpgrazer.cs" />
      <Compile Include="Assets\battle_helper.cs" />
+     <Compile Include="Assets\battleaimmiss.cs" />
      <Compile Include="Assets\battleselect.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\closetcutscene.cs" />

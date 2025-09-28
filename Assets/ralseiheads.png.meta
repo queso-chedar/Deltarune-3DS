@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3c1270566c55c8d4faab36f264918158
-timeCreated: 1758877369
+timeCreated: 1759011011
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -87,12 +87,12 @@ TextureImporter:
     overridden: 0
   - buildTarget: Nintendo 3DS
     maxTextureSize: 2048
-    textureFormat: -1
+    textureFormat: 7
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -100,10 +100,10 @@ TextureImporter:
       name: ralseiheads_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 119
-        width: 51
-        height: 48
+        x: 0
+        y: 206
+        width: 53
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,10 +113,10 @@ TextureImporter:
       name: ralseiheads_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 119
-        width: 50
-        height: 48
+        x: 54
+        y: 206
+        width: 52
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,9 +126,9 @@ TextureImporter:
       name: ralseiheads_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 64
-        width: 53
+        x: 107
+        y: 206
+        width: 52
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       name: ralseiheads_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 64
+        x: 160
+        y: 206
         width: 52
         height: 50
       alignment: 0
@@ -152,8 +152,8 @@ TextureImporter:
       name: ralseiheads_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 64
+        x: 0
+        y: 155
         width: 52
         height: 50
       alignment: 0
@@ -165,8 +165,8 @@ TextureImporter:
       name: ralseiheads_5
       rect:
         serializedVersion: 2
-        x: 177
-        y: 64
+        x: 53
+        y: 155
         width: 52
         height: 50
       alignment: 0
@@ -178,8 +178,8 @@ TextureImporter:
       name: ralseiheads_6
       rect:
         serializedVersion: 2
-        x: 234
-        y: 64
+        x: 106
+        y: 155
         width: 52
         height: 50
       alignment: 0
@@ -191,10 +191,10 @@ TextureImporter:
       name: ralseiheads_7
       rect:
         serializedVersion: 2
-        x: 291
-        y: 64
+        x: 159
+        y: 156
         width: 52
-        height: 50
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +204,8 @@ TextureImporter:
       name: ralseiheads_8
       rect:
         serializedVersion: 2
-        x: 348
-        y: 64
+        x: 0
+        y: 104
         width: 52
         height: 50
       alignment: 0
@@ -217,10 +217,10 @@ TextureImporter:
       name: ralseiheads_9
       rect:
         serializedVersion: 2
-        x: 405
-        y: 64
+        x: 53
+        y: 104
         width: 52
-        height: 49
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,9 +230,9 @@ TextureImporter:
       name: ralseiheads_10
       rect:
         serializedVersion: 2
-        x: 462
-        y: 64
-        width: 52
+        x: 106
+        y: 104
+        width: 53
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,9 +243,9 @@ TextureImporter:
       name: ralseiheads_11
       rect:
         serializedVersion: 2
-        x: 519
-        y: 64
-        width: 52
+        x: 160
+        y: 104
+        width: 53
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: ralseiheads_12
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
-        width: 53
-        height: 50
+        x: 0
+        y: 51
+        width: 48
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: ralseiheads_13
       rect:
         serializedVersion: 2
-        x: 634
-        y: 64
-        width: 53
-        height: 50
+        x: 49
+        y: 51
+        width: 48
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: ralseiheads_14
       rect:
         serializedVersion: 2
-        x: 691
-        y: 55
-        width: 58
-        height: 59
+        x: 98
+        y: 51
+        width: 48
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,9 +295,9 @@ TextureImporter:
       name: ralseiheads_15
       rect:
         serializedVersion: 2
-        x: 754
-        y: 66
-        width: 54
+        x: 0
+        y: 2
+        width: 51
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: ralseiheads_16
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 48
-        height: 52
+        x: 52
+        y: 2
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,23 +321,10 @@ TextureImporter:
       name: ralseiheads_17
       rect:
         serializedVersion: 2
-        x: 58
-        y: 3
-        width: 48
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ralseiheads_18
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 3
-        width: 48
-        height: 52
+        x: 198
+        y: 1
+        width: 57
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

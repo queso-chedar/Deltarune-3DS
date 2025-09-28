@@ -8,56 +8,61 @@ public class FightBar : MonoBehaviour
 	public BattleEnemy BattleEnemyScript;
 	public bool CanAttack = true;
 	private float movementSpeed = 5f;
-	public int damage;
-	public int FinalDamage;
+	public int EnemyHealth;
 	public bool On;
-	public int enemymaxhp;
+	public float velocidad = 4f;
+	public RectTransform rt;
 
 	// Use this for initialization
 	void Start()
 	{
-		BattleEnemyScript.EnemyHP = enemymaxhp;
+		EnemyHealth = BattleEnemyScript.EnemyHP;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		if (UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || (Input.GetKey(KeyCode.Z)))
-		{
-			Collider.enabled = true;
-			On = false;
-		}
 		if (On == true)
 		{
-			transform.position += new Vector3(-2.5f, 0f, 0f);
+			rt.anchoredPosition += new Vector2(velocidad, 0f);
 		}
+		BattleEnemyScript.EnemyHP = EnemyHealth;
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.CompareTag("Early"))
 		{
-			Debug.Log("Tag Early Touched!");
+			EnemyHealth = EnemyHealth - 16;
 		}
 		else if (other.CompareTag("Normal"))
 		{
-			Debug.Log("Tag Normal Touched!");
+			EnemyHealth = EnemyHealth - 29;
 		}
 		else if (other.CompareTag("Good"))
 		{
-			Debug.Log("Tag Good Touched!");
+			EnemyHealth = EnemyHealth - 36;
 		}
 		else if (other.CompareTag("Perfect"))
 		{
-			Debug.Log("Tag Perfect Touched!");
+			EnemyHealth = EnemyHealth - 50;
 		}
 		else if (other.CompareTag("Late"))
 		{
-			Debug.Log("Tag Late Touched!");
+			EnemyHealth = EnemyHealth - 17;
+		}
+		else if (other.CompareTag("Miss"))
+		{
+			On = false;
+			rt.anchoredPosition = new Vector2(283f, -3.5f);
 		}
 	}
-	void EnableAttack()
+	void FixedUpdate()
 	{
-		On = true;
+      if (UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || (Input.GetKey(KeyCode.Z)))
+		{
+			Collider.enabled = true;
+			On = false;
+		}
 	}
 	}
 	

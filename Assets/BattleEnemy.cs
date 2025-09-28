@@ -28,12 +28,11 @@ public class BattleEnemy : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		HPText.text = "EnemyHP: " + "<color=lime>" + EnemyHP + "</color>";
 		if (EnemyHP <= 0)
 		{
 			_enemyhealth.Finishtbattlebool = true;
 		}
-		HPText.text = "EnemyHP: " + EnemyHP;
-
 		if (Mercy >= 100)
 		{
 			Mercy = 100;
@@ -41,6 +40,6 @@ public class BattleEnemy : MonoBehaviour
 	}
 	public void CheckEnemy()
 	{
-		DialogueBoxText.text = "* " + EnemyName + " - " + EnemyDamage + " De daño y " + EnemyDefense + " De defensa - " + Description;
+		DialogueBoxText.text = "* " + EnemyName + " - " + EnemyDamage + " Of damage and  " + EnemyDefense + " of Defense " + Description;
 	}
 }
