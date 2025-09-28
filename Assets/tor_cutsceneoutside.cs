@@ -8,7 +8,7 @@ public class tor_cutsceneoutside : MonoBehaviour {
 	public GameObject player;
 	public torcartextcutscene torieltext;
 	public GameObject fakeplayerobject;
-
+	public NewKrisController krisController;
 	public GameObject torielobject;
 	public Animator fakeplayeranimate;
 	public Animator torielanimations;
@@ -32,6 +32,7 @@ public class tor_cutsceneoutside : MonoBehaviour {
 		animator = GetComponent<Animator>();
 		carwaittimer = 3;
 		waitcartimer = 1.5f;
+		krisController.enabled = false;
 	}
 
 	void Update()
