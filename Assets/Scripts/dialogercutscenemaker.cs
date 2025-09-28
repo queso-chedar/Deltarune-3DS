@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class dialogercutscenemaker : MonoBehaviour
 {
@@ -375,6 +376,10 @@ public class dialogercutscenemaker : MonoBehaviour
 		if (currentDialogueBox != null) { Destroy(currentDialogueBox); currentDialogueBox = null; }
 		isTyping = false; waitingForAutoAdvance = false;
 		krisController.enabled = true;
+		if (dialogues[1].message == "* Hey, this isn't funny!\n* LET US OUT!")
+		{
+			SceneManager.LoadScene("room_field_start");
+		}
 	}
 
 	void CacheLayoutComponents()
@@ -412,7 +417,7 @@ public class dialogercutscenemaker : MonoBehaviour
 	{
 		currentDialogueIndex = 0;
 		//dialogues[0].message = "* I will wait outside for you, alright?";
-		CloseDialogue();
+		//CloseDialogue();
 		ShowDialogue();
 	}
 	void ClampToCanvas(RectTransform target)

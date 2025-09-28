@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FadeController : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class FadeController : MonoBehaviour
     private bool isFading = false;
     private float targetAlpha;
     private float fadeSpeed;
-
+    private string room;
+    
     void OnEnable()
     {
         // Inicializamos fade al alpha actual
@@ -24,7 +26,9 @@ public class FadeController : MonoBehaviour
 
             // Si llegamos al objetivo, paramos
             if (Mathf.Approximately(canvasGroup.alpha, targetAlpha))
-                isFading = false;
+            {
+                SceneManager.LoadScene(room);
+            }
         }
     }
 
@@ -41,5 +45,9 @@ public class FadeController : MonoBehaviour
     {
         canvasGroup.alpha = alpha;
         isFading = false;
+    }
+    public void SetRoom(string targetRoom)
+    {
+        room = targetRoom;
     }
 }

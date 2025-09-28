@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using UnityEngine.SceneManagement;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -74,7 +75,6 @@ public class closetcutscene : MonoBehaviour {
 				dialoguer.dialogues[6].message = "";
 				dialoguer.dialogues[7].message = "";
 				dialoguer.RestartDialogue();
-				player.inisdeclosettexttrigger = false;
 			}
 		}
 	}
