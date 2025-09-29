@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,11 +18,11 @@ public class tor_krisroomcutscene : MonoBehaviour {
 
 	void Start()
 	{
-		torielwindowstandcount = 4;
-		torielmiddlestand = 8;
+		torielwindowstandcount = 2;
+		torielmiddlestand = 4;
 		seen = false;
-		krismovecountdown = 5;
-		playermovmentcountdown = 10;
+		krismovecountdown = 3;
+		playermovmentcountdown = 4;
 		player.SetActive(false);
 	}
 

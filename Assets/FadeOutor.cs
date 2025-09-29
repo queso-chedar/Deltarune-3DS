@@ -11,7 +11,7 @@ public class FadeOutor : MonoBehaviour
     public bool FadeOut;
     public CanvasGroup CanvasGroup;
     private float currentValue = 0;
-	private float fadespeed = 0.08f;
+	private float fadespeed = 0.20f;
 
 	void Start()
 	{
