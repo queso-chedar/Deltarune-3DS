@@ -130,9 +130,11 @@
      <Compile Include="Assets\battleaimmiss.cs" />
      <Compile Include="Assets\battleselect.cs" />
      <Compile Include="Assets\cameracaropening.cs" />
+     <Compile Include="Assets\car_openingschool.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\closetcutscene.cs" />
      <Compile Include="Assets\closettrigger.cs" />
+     <Compile Include="Assets\cutscene_managerschooloutside.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
      <Compile Include="Assets\scr_npc.cs" />
