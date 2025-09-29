@@ -100,6 +100,8 @@
      <Compile Include="Assets\Scripts\YSorting.cs" />
      <Compile Include="Assets\Scripts\ZoomLayers.cs" />
      <Compile Include="Assets\Scripts\ZoomResetDarken.cs" />
+     <Compile Include="Assets\Scripts\carhometown_mid.cs" />
+     <Compile Include="Assets\Scripts\carhometown_north.cs" />
      <Compile Include="Assets\Scripts\cebollaevento.cs" />
      <Compile Include="Assets\Scripts\dialogercutscenemaker.cs" />
      <Compile Include="Assets\Scripts\layer.cs" />
@@ -127,6 +129,7 @@
      <Compile Include="Assets\battle_helper.cs" />
      <Compile Include="Assets\battleaimmiss.cs" />
      <Compile Include="Assets\battleselect.cs" />
+     <Compile Include="Assets\cameracaropening.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\closetcutscene.cs" />
      <Compile Include="Assets\closettrigger.cs" />
