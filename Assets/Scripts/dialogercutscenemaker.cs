@@ -378,7 +378,7 @@ public class dialogercutscenemaker : MonoBehaviour
 		krisController.enabled = true;
 		if (dialogues[1].message == "* Hey, this isn't funny!\n* LET US OUT!")
 		{
-			SceneManager.LoadScene("room_field_start");
+			SceneManager.LoadScene("cliffs_1");
 		}
 	}
 
