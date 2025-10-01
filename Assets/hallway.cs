@@ -9,6 +9,7 @@ public class hallway : MonoBehaviour
     [SerializeField] private float y;
     [SerializeField] private string room;
     [SerializeField] private GameObject fadeOutPrefab;
+    public float fadeoutspeed = 0.20f;
 
     private Rigidbody2D body;
     private Animator anim;
@@ -29,8 +30,9 @@ public class hallway : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("hallwaytriggerer"))
         {
             GameObject fadeObj = Instantiate(fadeOutPrefab);
-            fadeObj.GetComponent<FadeOutor>().pass_on_values(room, x,y);
+            fadeObj.GetComponent<FadeOutor>().pass_on_values(room, x, y, fadeoutspeed);
             fadeObj.GetComponent<FadeOutor>().FadeOut = true;
+            Destroy(gameObject);
         }
     }
 

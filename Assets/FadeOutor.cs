@@ -60,9 +60,10 @@ public class FadeOutor : MonoBehaviour
 		if (CanvasGroup) CanvasGroup.alpha = 1f;
 	}
 
-	public void pass_on_values(string targetRoom, float _x, float _y)
+	public void pass_on_values(string targetRoom, float _x, float _y, float thyadespeed)
 	{
 		room = targetRoom;
+		fadespeed = thyadespeed;
 		playerx = _x;
 		playery = _y;
     }
