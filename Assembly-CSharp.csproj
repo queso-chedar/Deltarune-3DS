@@ -253,6 +253,7 @@
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\closetcutscene.cs" />
      <Compile Include="Assets\closettrigger.cs" />
+     <Compile Include="Assets\cutscene_managerschoolinsidetoriel.cs" />
      <Compile Include="Assets\cutscene_managerschooloutside.cs" />
      <Compile Include="Assets\hallway.cs" />
      <Compile Include="Assets\layer.cs" />
