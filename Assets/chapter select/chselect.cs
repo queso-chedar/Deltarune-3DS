@@ -13,16 +13,13 @@ public class chselect : MonoBehaviour
 
     public void ButtonPressed()
     {
-        Debug.Log("Button pressed!");
-        SceneManager.LoadScene(room);
+        SceneManager.LoadScene(room, LoadSceneMode.Single);
     }
     void Update()
     {
         if (EventSystem.current.currentSelectedGameObject == targetButton.gameObject)
         {
-            Debug.Log(targetButton.name + " is highlighted via navigation");
-            
-            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z))
+            if (UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || Input.GetKeyDown(KeyCode.Z))
             {
                 ButtonPressed();
             }
