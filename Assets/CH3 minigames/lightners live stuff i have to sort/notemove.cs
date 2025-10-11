@@ -11,6 +11,6 @@ public class notemove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(Vector3.down * 1 * Time.deltaTime);
+		transform.Translate(Vector3.down * 1.5f * Time.deltaTime);
 	}
 }

@@ -52,8 +52,7 @@ public class tor_krisroomcutscene : MonoBehaviour {
 					{
 						if (torielanimations.GetCurrentAnimatorStateInfo(0).IsName("windowopen"))
 						{
-							if (torielanimations.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f
-								&& !torielanimations.IsInTransition(0))
+							if (torielanimations.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && !torielanimations.IsInTransition(0))
 							{
 								torielanimations.Play("downwalk", 0, 0f);
 							}

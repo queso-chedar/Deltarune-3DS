@@ -55,6 +55,13 @@
      <Compile Include="Assets\3DSExamples\VSyncType\Tumble.cs" />
      <Compile Include="Assets\3DSExamples\VSyncType\VSyncType.cs" />
      <Compile Include="Assets\AccessPointExample\AccessPointScript.cs" />
+     <Compile Include="Assets\CH3 minigames\cooking\cookingkrismove.cs" />
+     <Compile Include="Assets\CH3 minigames\cooking\fire_control.cs" />
+     <Compile Include="Assets\CH3 minigames\cooking\fire_move.cs" />
+     <Compile Include="Assets\CH3 minigames\cooking\warn_fire_move.cs" />
+     <Compile Include="Assets\CH3 minigames\lightners live stuff i have to sort\noteeffect.cs" />
+     <Compile Include="Assets\CH3 minigames\lightners live stuff i have to sort\notehitter.cs" />
+     <Compile Include="Assets\CH3 minigames\lightners live stuff i have to sort\notemove.cs" />
      <Compile Include="Assets\Characters\AfterImage.cs" />
      <Compile Include="Assets\CreativeSpore\SuperTilemapEditor - Extra\Importers\Pyxel Edit\Scripts\JSONObject.cs" />
      <Compile Include="Assets\CreativeSpore\SuperTilemapEditor - Extra\Importers\Pyxel Edit\Scripts\PyxelEdit Component\PyxelEdit.cs" />
@@ -180,10 +187,6 @@
      <Compile Include="Assets\battle\scr_soul.cs" />
      <Compile Include="Assets\battle\tpgrazer.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
-     <Compile Include="Assets\lightners live stuff i have to sort\noteeffect.cs" />
-     <Compile Include="Assets\lightners live stuff i have to sort\notehit_left.cs" />
-     <Compile Include="Assets\lightners live stuff i have to sort\notehit_right.cs" />
-     <Compile Include="Assets\lightners live stuff i have to sort\notemove.cs" />
      <None Include="Assets\Misc\HOLYTITAN\READ ME.txt" />
      <None Include="Assets\CreativeSpore\SuperTilemapEditor - Extra\Tileset - Samples\Tiled - Tmx Import\license.txt" />
      <None Include="Assets\CreativeSpore\SuperTilemapEditor\changelog.txt" />
