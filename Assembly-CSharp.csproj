@@ -183,6 +183,7 @@
      <Compile Include="Assets\Sounds\O\RainbowText.cs" />
      <Compile Include="Assets\Sounds\O\target.cs" />
      <Compile Include="Assets\UnCachedScene.cs" />
+     <Compile Include="Assets\areas\Chapter 3\Tv World\tv_screen_face.cs" />
      <Compile Include="Assets\battle\Battlebox.cs" />
      <Compile Include="Assets\battle\Personajes\movepositionxseconds.cs" />
      <Compile Include="Assets\battle\battleaimer.cs" />

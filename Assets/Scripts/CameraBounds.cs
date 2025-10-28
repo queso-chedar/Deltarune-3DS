@@ -18,8 +18,15 @@ public class CameraBounds : MonoBehaviour
         Vector3 cameraPos = transform.position;
 
         // Mantener la cámara dentro de los límites definidos
-        cameraPos.x = Mathf.Clamp(target.position.x, minX + cam.orthographicSize * cam.aspect, maxX - cam.orthographicSize * cam.aspect);
-        cameraPos.y = Mathf.Clamp(target.position.y, minY + cam.orthographicSize, maxY - cam.orthographicSize);
+        float camHalfHeight = cam.orthographicSize;
+        float camHalfWidth  = camHalfHeight * cam.aspect;
+
+        if (maxX - minX > camHalfWidth * 2) 
+            cameraPos.x = Mathf.Clamp(target.position.x, minX + camHalfWidth, maxX - camHalfWidth);
+        if (maxY - minY > camHalfHeight * 2) 
+            cameraPos.y = Mathf.Clamp(target.position.y, minY + camHalfHeight, maxY - camHalfHeight);
+
+
 
         // Aplicar la nueva posición a la cámara
         transform.position = cameraPos;
