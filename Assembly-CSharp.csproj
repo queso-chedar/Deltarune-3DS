@@ -55,6 +55,7 @@
      <Compile Include="Assets\3DSExamples\VSyncType\Tumble.cs" />
      <Compile Include="Assets\3DSExamples\VSyncType\VSyncType.cs" />
      <Compile Include="Assets\AccessPointExample\AccessPointScript.cs" />
+     <Compile Include="Assets\Battle_handle.cs" />
      <Compile Include="Assets\CH3 minigames\cooking\cookingkrismove.cs" />
      <Compile Include="Assets\CH3 minigames\cooking\fire_control.cs" />
      <Compile Include="Assets\CH3 minigames\cooking\fire_move.cs" />

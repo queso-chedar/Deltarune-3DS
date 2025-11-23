@@ -4,7 +4,8 @@ public class Battlebox : MonoBehaviour
 {
     Animator animator;
     AnimationClip clip;
-
+    public Battle_handle BattleHandler;
+    float attacktimer = 100;
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -17,7 +18,18 @@ public class Battlebox : MonoBehaviour
 
     void Update()
     {
+        attacktimer--;
+
         AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+
+        if (attacktimer <= 0)
+        {
+            animator.Play("battlebox_destroy");   
+
+			BattleHandler.soul.SetActive(false);
+			BattleHandler.tpgrazer.SetActive(false);
+			BattleHandler.attack.SetActive(false); 
+        }
 
         if (state.IsName("battlebox_destroy"))
         {

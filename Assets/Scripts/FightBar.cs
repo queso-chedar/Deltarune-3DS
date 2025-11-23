@@ -15,15 +15,10 @@ public class FightBar : MonoBehaviour
 	public AudioClip snd_criticalswing;
 	public AudioClip snd_laz_c;
 	[Header("Shitty References")]
+	public Battle_handle BattleHandler;
 	public Collider2D Collider;
-	public BattleEnemy BattleEnemyScript;
 	public RectTransform rt;
-	public GameObject battleBox;
-	public GameObject tpgrazer;
-	public GameObject soul;
-	public Animator playeranimator;
-	public Text DamageTextUI;
-	public GameObject attack;
+
 	[Header("Debug Damage")]
 	public int Early = 16;
 	public int Normal = 29;
@@ -41,29 +36,29 @@ public class FightBar : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		EnemyHealth = BattleEnemyScript.EnemyHP;
+		EnemyHealth = BattleHandler.BattleEnemyScript.EnemyHP;
 
-		attackstartX = attack.transform.position.x;
-		attackstartY = attack.transform.position.y;
-		soulstartX = soul.transform.position.x;
-		soulstartY = soul.transform.position.y;
+		attackstartX = BattleHandler.attack.transform.position.x;
+		attackstartY = BattleHandler.attack.transform.position.y;
+		soulstartX = BattleHandler.soul.transform.position.x;
+		soulstartY = BattleHandler.soul.transform.position.y;
 		MoveFightBar = true;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		BattleEnemyScript.EnemyHP = EnemyHealth;
+		BattleHandler.BattleEnemyScript.EnemyHP = EnemyHealth;
 
-		if (playeranimator.GetCurrentAnimatorStateInfo(0).IsName("Slash") && (playeranimator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && !playeranimator.IsInTransition(0)))
+		if (BattleHandler.playeranimator.GetCurrentAnimatorStateInfo(0).IsName("Slash") && (BattleHandler.playeranimator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && !BattleHandler.playeranimator.IsInTransition(0)))
 		{
-			attack.transform.position = new Vector3(attackstartX, attackstartY, 0);
-			soul.transform.position = new Vector3(soulstartX, soulstartY, 0);
-			playeranimator.Play("FightIdle", 0, 0f);
-			battleBox.SetActive(true);
-			soul.SetActive(true);
-			tpgrazer.SetActive(true);
-			attack.SetActive(true);
+			BattleHandler.attack.transform.position = new Vector3(attackstartX, attackstartY, 0);
+			BattleHandler.soul.transform.position = new Vector3(soulstartX, soulstartY, 0);
+			BattleHandler.playeranimator.Play("FightIdle", 0, 0f);
+			BattleHandler.battleBox.SetActive(true);
+			BattleHandler.soul.SetActive(true);
+			BattleHandler.tpgrazer.SetActive(true);
+			BattleHandler.attack.SetActive(true);
 		}
 	}
 	void FixedUpdate()
@@ -73,9 +68,9 @@ public class FightBar : MonoBehaviour
 			rt.anchoredPosition += new Vector2(velocidad, 0f);
 		}
 	{
-      if (UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || (Input.GetKey(KeyCode.Z)))
+      if (UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || (Input.GetKeyDown(KeyCode.Z)))
 		{
-			playeranimator.Play("Slash", 0, 0f);
+			BattleHandler.playeranimator.Play("Slash", 0, 0f);
 			Collider.enabled = true;
 			MoveFightBar = false;
 		}
@@ -86,32 +81,32 @@ public class FightBar : MonoBehaviour
 		if (other.CompareTag("Early"))
 		{
 			EnemyHealth = EnemyHealth - Early;
-			DamageTextUI.text = Early.ToString();
+			BattleHandler.DamageTextUI.text = Early.ToString();
 			audioSource.PlayOneShot(snd_laz_c);
 		}
 		else if (other.CompareTag("Normal"))
 		{
 			EnemyHealth = EnemyHealth - Normal;
-			DamageTextUI.text = Normal.ToString();
+			BattleHandler.DamageTextUI.text = Normal.ToString();
 			audioSource.PlayOneShot(snd_laz_c);
 		}
 		else if (other.CompareTag("Good"))
 		{
 			EnemyHealth = EnemyHealth - Good;
-			DamageTextUI.text = Good.ToString();
+			BattleHandler.DamageTextUI.text = Good.ToString();
 			audioSource.PlayOneShot(snd_laz_c);
 		}
 		else if (other.CompareTag("Perfect"))
 		{
 			EnemyHealth = EnemyHealth - Perfect;
-			DamageTextUI.text = Perfect.ToString();
+			BattleHandler.DamageTextUI.text = Perfect.ToString();
 			audioSource.PlayOneShot(snd_laz_c);
 			audioSource.PlayOneShot(snd_criticalswing);
 		}
 		else if (other.CompareTag("Late"))
 		{
 			EnemyHealth = EnemyHealth - Late;
-			DamageTextUI.text = Late.ToString();
+			BattleHandler.DamageTextUI.text = Late.ToString();
 			audioSource.PlayOneShot(snd_laz_c);
 		}
 		else if (other.CompareTag("Miss"))
