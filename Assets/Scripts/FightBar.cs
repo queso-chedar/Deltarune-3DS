@@ -5,6 +5,13 @@ using UnityEngine.UI;
 
 public class FightBar : MonoBehaviour
 {
+    public float duracion = 2f; // tiempo total en segundos
+    private float tiempo = 0f;
+	private Image spriter_self;
+	private Image spriter_aimer_bg;
+	private Image spriter_PresserHint;
+	public Vector3 savedpos;
+
 	[Header("Stuff")]
 	public bool CanAttack = true;
 	public int EnemyHealth;
@@ -36,8 +43,12 @@ public class FightBar : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		EnemyHealth = BattleHandler.BattleEnemyScript.EnemyHP;
+		//savedpos = GetComponent<RectTransform>().anchoredPosition;
+		spriter_self = GetComponent<UnityEngine.UI.Image>();
+		spriter_aimer_bg = BattleHandler.Battle_Aimer_bg.GetComponent<UnityEngine.UI.Image>();
+		spriter_PresserHint = BattleHandler.PresserHint.GetComponent<UnityEngine.UI.Image>();
 
+		EnemyHealth = BattleHandler.BattleEnemyScript.EnemyHP;
 		attackstartX = BattleHandler.attack.transform.position.x;
 		attackstartY = BattleHandler.attack.transform.position.y;
 		soulstartX = BattleHandler.soul.transform.position.x;
@@ -60,6 +71,13 @@ public class FightBar : MonoBehaviour
 			BattleHandler.tpgrazer.SetActive(true);
 			BattleHandler.attack.SetActive(true);
 		}
+
+		if (BattleHandler.soul.activeSelf == true)
+        {
+            spriter_self.color = new Color(spriter_self.color.r, spriter_self.color.g, spriter_self.color.b, Mathf.MoveTowards(spriter_self.color.a, 0f, 3 * Time.deltaTime));
+			spriter_aimer_bg.color = new Color(spriter_aimer_bg.color.r, spriter_aimer_bg.color.g, spriter_aimer_bg.color.b, Mathf.MoveTowards(spriter_aimer_bg.color.a, 0f, 3 * Time.deltaTime));
+			spriter_PresserHint.color = new Color(spriter_PresserHint.color.r, spriter_PresserHint.color.g, spriter_PresserHint.color.b, Mathf.MoveTowards(spriter_PresserHint.color.a, 0f, 3 * Time.deltaTime));
+        }
 	}
 	void FixedUpdate()
 	{
@@ -67,14 +85,13 @@ public class FightBar : MonoBehaviour
 		{
 			rt.anchoredPosition += new Vector2(velocidad, 0f);
 		}
-	{
-      if (UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || (Input.GetKeyDown(KeyCode.Z)))
+
+      	if ((UnityEngine.N3DS.GamePad.GetButtonTrigger(N3dsButton.A) || (Input.GetKeyDown(KeyCode.Z))) && MoveFightBar == true)
 		{
 			BattleHandler.playeranimator.Play("Slash", 0, 0f);
 			Collider.enabled = true;
 			MoveFightBar = false;
 		}
-	}
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{

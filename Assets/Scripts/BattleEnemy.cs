@@ -40,6 +40,6 @@ public class BattleEnemy : MonoBehaviour
 	}
 	public void CheckEnemy()
 	{
-		DialogueBoxText.text = "* " + EnemyName + " - " + EnemyDamage + " Of damage and  " + EnemyDefense + " of Defense " + Description;
+		DialogueBoxText.text = "* " + EnemyName + " - " + " AT " + EnemyDamage + " DF " + EnemyDefense + "\n* " + Description;
 	}
 }
