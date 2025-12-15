@@ -192,8 +192,10 @@
      <Compile Include="Assets\battle\rudinshoot.cs" />
      <Compile Include="Assets\battle\scr_soul.cs" />
      <Compile Include="Assets\battle\tpgrazer.cs" />
+     <Compile Include="Assets\changeroom_fade.cs" />
      <Compile Include="Assets\chapter select\chselect.cs" />
      <Compile Include="Assets\dont_destroy.cs" />
+     <Compile Include="Assets\skipintro.cs" />
      <None Include="Assets\Misc\HOLYTITAN\READ ME.txt" />
      <None Include="Assets\CreativeSpore\SuperTilemapEditor - Extra\Tileset - Samples\Tiled - Tmx Import\license.txt" />
      <None Include="Assets\CreativeSpore\SuperTilemapEditor\changelog.txt" />

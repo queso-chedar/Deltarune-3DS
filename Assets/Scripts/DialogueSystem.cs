@@ -78,7 +78,21 @@ public class DialogueSystem : MonoBehaviour
     {
         InitializeAudioPool();
         cachedCanvasObj = GameObject.Find("CanvasPrefab");
-        if (cachedCanvasObj == null) Debug.LogWarning("CanvasPrefab no encontrado.");
+
+        if (cachedCanvasObj != null && dialogueBoxPrefab != null)
+        {
+            var all = cachedCanvasObj.GetComponentsInChildren<Transform>(true);
+            for (int i = 0; i < all.Length; i++)
+            {
+                var go = all[i].gameObject;
+
+                if (currentDialogueBox != null && go == currentDialogueBox) continue;
+
+                if (go.name.StartsWith(dialogueBoxPrefab.name))
+                    Destroy(go);
+            }
+        }
+
         PreloadFontCharacters();
         ShowDialogue();
     }
@@ -91,7 +105,7 @@ public class DialogueSystem : MonoBehaviour
         // If typing: allow skipping/complete with X, B, Return
         if (isTyping)
         {
-            if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.Return))
+            if (dialogues[currentDialogueIndex].skippable && Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.Return))
             {
                 // Only allow skip if current dialogue is skippable
                 if (currentDialogueIndex < dialogues.Length && dialogues[currentDialogueIndex].skippable)
@@ -185,6 +199,22 @@ public class DialogueSystem : MonoBehaviour
         }
 
         if (currentDialogueIndex != index) yield break;
+        
+        // delete old panels when THIS dialogue actually starts
+        if (cachedCanvasObj != null)
+        {
+            var all = cachedCanvasObj.GetComponentsInChildren<Transform>(true);
+            for (int i = 0; i < all.Length; i++)
+            {
+                var go = all[i].gameObject;
+
+                if (currentDialogueBox != null && go == currentDialogueBox) continue;
+
+                // if your spawned boxes are Panel(Clone), match "Panel"
+                if (go.name.StartsWith("Panel"))
+                    Destroy(go);
+            }
+        }
 
         if (currentDialogueBox == null)
         {
